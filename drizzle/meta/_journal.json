@@ -1,5 +1,27 @@
 {
   "version": "7",
   "dialect": "mysql",
-  "entries": []
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1775568731898,
+      "tag": "0000_living_nitro",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1775569113090,
+      "tag": "0001_perfect_the_initiative",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1775569528701,
+      "tag": "0002_nostalgic_unus",
+      "breakpoints": true
+    }
+  ]
 }

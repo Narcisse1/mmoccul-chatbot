@@ -1,6 +1,6 @@
-import { eq } from "drizzle-orm";
+import { asc, desc, eq } from "drizzle-orm";
 import { drizzle } from "drizzle-orm/mysql2";
-import { InsertUser, users } from "../drizzle/schema";
+import { InsertUser, users, conversations, messages } from "../drizzle/schema";
 import { ENV } from './_core/env';
 
 let _db: ReturnType<typeof drizzle> | null = null;
@@ -89,4 +89,77 @@ export async function getUserByOpenId(openId: string) {
   return result.length > 0 ? result[0] : undefined;
 }
 
-// TODO: add feature queries here as your schema grows.
+export async function createConversation(userId: number, title?: string) {
+  const db = await getDb();
+  if (!db) throw new Error("Database not available");
+
+  await db.insert(conversations).values({
+    userId,
+    title: title || `Chat ${new Date().toLocaleDateString()}`,
+  });
+
+  // Fetch the created conversation
+  const created = await db
+    .select()
+    .from(conversations)
+    .where(eq(conversations.userId, userId))
+    .orderBy(desc(conversations.createdAt))
+    .limit(1);
+
+  return created;
+}
+
+export async function getConversationsByUserId(userId: number) {
+  const db = await getDb();
+  if (!db) throw new Error("Database not available");
+
+  return db
+    .select()
+    .from(conversations)
+    .where(eq(conversations.userId, userId))
+    .orderBy(desc(conversations.updatedAt));
+}
+
+export async function getConversationWithMessages(conversationId: number) {
+  const db = await getDb();
+  if (!db) throw new Error("Database not available");
+
+  const conv = await db
+    .select()
+    .from(conversations)
+    .where(eq(conversations.id, conversationId))
+    .limit(1);
+
+  if (conv.length === 0) return null;
+
+  const msgs = await db
+    .select()
+    .from(messages)
+    .where(eq(messages.conversationId, conversationId))
+    .orderBy(asc(messages.createdAt));
+
+  return { ...conv[0], messages: msgs };
+}
+
+export async function addMessage(
+  conversationId: number,
+  role: "user" | "assistant",
+  content: string
+) {
+  const db = await getDb();
+  if (!db) throw new Error("Database not available");
+
+  await db.insert(messages).values({
+    conversationId,
+    role,
+    content,
+  });
+
+  // Update conversation updatedAt
+  await db
+    .update(conversations)
+    .set({ updatedAt: new Date() })
+    .where(eq(conversations.id, conversationId));
+}
+
+// TODO: add more feature queries here as your schema grows.

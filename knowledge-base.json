@@ -1,0 +1,96 @@
+{
+  "knowledge_base": {
+    "account_opening": {
+      "title": "How to Become a Member of MMOCCUL",
+      "content": "Visit any of our 10+ branches across Cameroon with your national ID card (CNI or passport) and two passport-size photos. Pay the membership fee of 50,500 FCFA (Solidarity Fund: 12,000 FCFA + Building Fund: 8,500 FCFA + Share Capital: 30,000 FCFA) and your account is activated immediately on the same day. You'll receive your member number, passbook, and mobile banking credentials."
+    },
+    "account_types": {
+      "title": "Account Types and Benefits",
+      "content": "MMOCCUL offers multiple account types: Main Account (comprises savings and deposit account at 50,500 FCFA with 5% yearly interest), Joint Accounts (for couples, families, and business partners with equal transaction rights), and Student Accounts (zero minimum balance after registration). You can have multiple account types under one membership. Benefits include 5% interest on both savings and shares, term deposits yielding 6% per year paid upfront, preference shares at 8% yearly, very low loan interest at 1.5% monthly calculated on balance, and banking partnership at almost no cost."
+    },
+    "savings_interest": {
+      "title": "Interest Rates on Savings",
+      "content": "MMOCCUL offers 5% annually on savings, one of the highest rates among financial institutions in Cameroon. The amazing part is we now give interest twice a year: by ending June and ending December. Your share capital of 30,000 FCFA serves as your minimum balance and represents your ownership stake in the cooperative. You can save any amount above this. For daily savings accounts, you can start with as little as 500 FCFA per day."
+    },
+    "visa_card": {
+      "title": "ATM Visa Card Application and Benefits",
+      "content": "To apply for the ATM Visa Card, you'll need a copy of your National ID, localization plan, and your NIU (Tax payer number). If you don't have the NIU, we can make it for you. The card costs 10,000 FCFA. Benefits include convenient access to funds and transactions, easy cash withdrawal, fund transfers and secure payments, and wide global acceptance for online shopping, bill payments, and use in different parts of the world."
+    },
+    "school_loan": {
+      "title": "School Fees Loan Application",
+      "content": "To get a school loan: (1) First, open an account with us. (2) Provide these documents: A handwritten loan application letter (addressed to the General Manager of MMOCCUL), a photocopy of your national ID card, a recent payslip or proof of regular income, and a simple map (localization plan) to your residence. School fees loans are available up to 3M FCFA with processing within 3 business days from submission of complete documentation."
+    },
+    "business_loan": {
+      "title": "Business Loan Application",
+      "content": "For a business loan, you'll need: (1) A loan application letter (addressed to the General Manager of MMOCCUL), (2) A collateral (with documents), (3) Localization plan on where you live and also where the business is located, (4) Photocopy of ID card, (5) Full picture and passport size photo, (6) 20% of the amount you want in your account as cash collateral, (7) Fill the loan application form, (8) A Guarantor, his ID card and half picture (Guarantor needs 4% of the amount guaranteed), (9) A complete account with full shares, solidarity and building, (10) Loan charges is 3% of amount. Business loans are available up to 10M FCFA with processing within 5 business days."
+    },
+    "personal_loan": {
+      "title": "Personal Loan Requirements",
+      "content": "To be eligible for a personal loan you will need: (1) An updated account, (2) A minimum savings balance of at least 1/5 of the loan requested, (3) Two guarantors, (4) A collateral in case the loan amount is above a million. Personal loans are available up to 2M FCFA for emergency situations with 48-hour processing."
+    },
+    "loan_types": {
+      "title": "Types of Loans Available",
+      "content": "MMOCCUL offers six main loan types: (1) School Fees Loans (up to 3M FCFA), (2) Salary Advance (up to 5M FCFA, 24-hour processing), (3) Business Loans (up to 10M FCFA), (4) Agricultural Loans (up to 5M FCFA with seasonal repayment), (5) Plot/Housing Loans (up to 20M FCFA, 60-month term), and (6) Emergency Loans (up to 2M FCFA, 48-hour processing). Each type has competitive rates starting from 1.5% per month."
+    },
+    "loan_approval_timeline": {
+      "title": "Loan Approval Processing Times",
+      "content": "Processing times vary by loan type: Salary advance loans within 24 hours, Emergency loans within 48 hours, School fees loans within 3 business days, Business and Agricultural loans within 5 business days, and Housing loans within 7-10 business days. All times are from submission of complete documentation."
+    },
+    "loan_collateral": {
+      "title": "Loan Collateral Requirements",
+      "content": "Requirements vary by loan type: Salary advance needs a guarantee letter from your employer. School fees loans need an admission letter or fee invoice plus a guarantor. Business loans over 2M FCFA may require asset (collateral) documentation. Housing loans require a land certificate or property valuation. Agricultural loans require farm documentation."
+    },
+    "early_repayment": {
+      "title": "Early Loan Repayment",
+      "content": "Absolutely! Early repayment is encouraged and there are no penalties for paying off your loan before the due date. In fact, early repayment improves your credit score within MMOCCUL and may qualify you for larger loans at better rates in the future."
+    },
+    "missed_payment": {
+      "title": "What Happens if I Miss a Payment",
+      "content": "We understand that financial difficulties can arise. If you anticipate difficulty making a payment, contact your branch immediately. We offer payment rescheduling, grace periods, and restructuring options. Late payments do incur a small penalty fee, and persistent defaults may affect your ability to access future loans."
+    },
+    "joint_account": {
+      "title": "Joint Account Options",
+      "content": "Yes! MMOCCUL offers joint accounts for couples, families, and business partners. Both account holders must present valid ID cards and passport photos. Joint accounts have equal rights to transactions unless specified otherwise. Joint account holders can also designate different authorization levels for withdrawals."
+    },
+    "minimum_balance": {
+      "title": "Minimum Balance Requirements",
+      "content": "Your share capital of 30,000 FCFA serves as your minimum balance and represents your ownership stake in the cooperative. You can save any amount above this. For daily savings accounts, you can start with as little as 500 FCFA per day. Student accounts have zero minimum balance after the initial registration."
+    },
+    "branch_transfer": {
+      "title": "Membership Transfer Between Branches",
+      "content": "Yes, membership transfers between branches are seamless and free. Simply visit your current branch, request a transfer form, and your account will be moved to your preferred branch within 48 hours. Your account history, savings, and loan status all transfer with you."
+    },
+    "account_closure": {
+      "title": "Account Closure Process",
+      "content": "You can close your account at any time by visiting your branch. Your share capital (30,000 FCFA) will be refunded after deducting any outstanding obligations. The solidarity fund and building fund are non-refundable as they contribute to the cooperative's community development programs."
+    },
+    "multiple_accounts": {
+      "title": "Multiple Account Types",
+      "content": "Yes, you can have multiple account types under one membership — for example, a regular savings account, a term deposit, and a business account. Each account type serves different financial needs and may have different terms and features."
+    },
+    "mobile_banking_registration": {
+      "title": "How to Access Mobile Banking",
+      "content": "Step-by-step guide: (1) Open the link https://mmocculonline.com (2) Login or Register - If already registered, log in using your username and password. If first time, click 'Register for Internet Banking' (3) Enter your account details - Enter your Account ID (contact bank staff if unknown), Username (should be your phone number) (4) Verify your email - Ensure correct email registered in system (5) Validate your code - Open email, copy code, paste into required field, click 'Validate' (6) Registration Successful - You'll receive SMS with temporary password (7) Login to your account - Enter Username (phone number) and password sent via SMS (8) Choose two security questions and provide answers (9) Complete registration - System redirects to login page (10) Enter Username and Password, then press login"
+    },
+    "mobile_banking_features": {
+      "title": "Mobile Banking Capabilities",
+      "content": "Our app offers: balance checks, transaction history, member-to-member transfers, bill payments (ENEO, CAMWATER, phone airtime), loan applications, savings goal tracking, statement downloads, branch locator, and direct WhatsApp support. Essentially, everything you can do at a branch except cash deposits and withdrawals."
+    },
+    "transaction_security": {
+      "title": "Transaction Security",
+      "content": "Absolutely. We use bank-grade 256-bit SSL encryption, two-factor authentication (OTP + PIN or biometric), real-time fraud monitoring, and session timeouts. Every transaction triggers an instant SMS alert so you're always informed. Our systems are audited quarterly by COBAC-approved security firms."
+    },
+    "mobile_money_integration": {
+      "title": "Orange Money and MTN Mobile Money Integration",
+      "content": "Yes! You can deposit to your MMOCCUL account from Orange Money or MTN Mobile Money, and withdraw from MMOCCUL to your mobile money wallet. Transfers are instant and available 24/7. This makes banking accessible even in remote areas without MMOCCUL branches."
+    },
+    "account_succession": {
+      "title": "Account Succession Upon Death",
+      "content": "MMOCCUL has a clear succession process. Your designated beneficiary (named during account opening) can claim your savings, share capital, and any other account balances upon presenting: death certificate, beneficiary ID, and court appointment letter."
+    },
+    "branches": {
+      "title": "MMOCCUL Branches Locations",
+      "content": "MMOCCUL has 10+ branches across Cameroon: Mmockmbie Branch (Located at the market square), Yaounde - Damas Branch (At Rond Point Damas), Yaounde - Messassi Branch (At Dispensaire Messassi), Yaounde - Etoug-Ebe (At Centre Handicapes), Douala - Douala Village (Opposite Tradex Bonne Dix, Village), Douala - Bonaberi Village (General Express New Building), Dschang Branch (Beside Alimentation Forbin - Marche A), Bafoussam Branch (Ancien Cinema 4 Etio - Entree Marche B), Buea Branch (UB Junction opposite TFC Restaurant), Bamenda Branch (Food Market – E square plaza building), Kumba Branch (Mbo'o Street Junction), Bertoua Branch (Rue Grand Total Ndouan)"
+    }
+  }
+}
