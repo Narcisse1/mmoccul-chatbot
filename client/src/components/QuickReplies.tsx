@@ -16,20 +16,18 @@ const QUICK_REPLIES = [
 
 export function QuickReplies({ onSelectReply, disabled = false }: QuickRepliesProps) {
   return (
-    <div className="px-4 py-3 border-t border-border bg-background">
-      <p className="text-xs text-muted-foreground mb-2 font-medium">Quick questions:</p>
-      <div className="flex flex-wrap gap-2">
+    <div className="quick-replies">
+      <p className="quick-replies-label">Suggested questions:</p>
+      <div className="quick-replies-container">
         {QUICK_REPLIES.map((reply) => (
-          <Button
+          <button
             key={reply}
-            variant="outline"
-            size="sm"
             onClick={() => onSelectReply(reply)}
             disabled={disabled}
-            className="text-xs h-auto py-1 px-3 rounded-full whitespace-normal text-left"
+            className="quick-reply-button"
           >
             {reply}
-          </Button>
+          </button>
         ))}
       </div>
     </div>
