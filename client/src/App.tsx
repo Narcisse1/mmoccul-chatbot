@@ -169,7 +169,7 @@ export default function App() {
   return (
     <div className="min-h-screen bg-gray-100 flex items-center justify-center p-4">
       {/* Fixed WhatsApp-style Chat Window */}
-      <div className="w-full max-w-md h-screen max-h-[90vh] flex flex-col bg-[#e5ddd5] rounded-lg shadow-2xl overflow-hidden">
+      <div className="w-full max-w-md h-screen max-h-[95vh] flex flex-col bg-[#e5ddd5] rounded-lg shadow-2xl overflow-hidden">
         {/* Header */}
         <motion.header
           initial={{ opacity: 0, y: -20 }}

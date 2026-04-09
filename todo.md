@@ -53,3 +53,7 @@
 - [x] Test responsive layout
 - [x] Verify logo displays correctly
 - [x] All tests passing (8/8)
+
+## Recent Updates
+- [x] Increase chat window height (max-h-[95vh])
+- [x] All tests passing (8/8)
