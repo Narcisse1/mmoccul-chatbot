@@ -44,3 +44,12 @@
 - [x] Adjust input area to match WhatsApp
 - [x] All tests passing after redesign (8/8)
 - [x] Performance optimization
+
+## UI Updates (Fixed Window & Logo)
+- [x] Upload MMOCCUL logo to S3
+- [x] Update App.tsx with fixed window size (WhatsApp style)
+- [x] Replace M avatar with MMOCCUL logo
+- [x] Center chat window on desktop
+- [x] Test responsive layout
+- [x] Verify logo displays correctly
+- [x] All tests passing (8/8)

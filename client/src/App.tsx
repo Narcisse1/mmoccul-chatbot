@@ -167,102 +167,107 @@ export default function App() {
   };
 
   return (
-    <div className="size-full flex flex-col bg-[#e5ddd5] max-w-md mx-auto">
-      {/* Header */}
-      <motion.header
-        initial={{ opacity: 0, y: -20 }}
-        animate={{ opacity: 1, y: 0 }}
-        className="bg-emerald-600 text-white px-4 py-3 shadow-md"
-      >
-        <div className="flex items-center justify-between">
-          <div className="flex items-center gap-3">
-            <ArrowLeft className="w-6 h-6 cursor-pointer hover:opacity-80" />
-            <div className="w-10 h-10 rounded-full bg-white flex items-center justify-center font-bold text-emerald-600">
-              M
-            </div>
-            <div>
-              <div className="font-semibold">MMOCCUL</div>
-              <div className="text-xs opacity-90">Online</div>
-            </div>
-          </div>
-          <div className="flex items-center gap-5">
-            <Video className="w-5 h-5 cursor-pointer hover:opacity-80" />
-            <Phone className="w-5 h-5 cursor-pointer hover:opacity-80" />
-            <MoreVertical className="w-5 h-5 cursor-pointer hover:opacity-80" />
-          </div>
-        </div>
-      </motion.header>
-
-      {/* Chat Background Pattern */}
-      <div
-        className="flex-1 overflow-y-auto px-4 py-3 space-y-3"
-        style={{
-          backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M30 0L30 60M0 30L60 30' stroke='%23d9d9d9' stroke-width='0.5' fill='none' opacity='0.1'/%3E%3C/svg%3E")`,
-        }}
-      >
-        {displayMessages.map((msg, index) => (
-          <motion.div
-            key={index}
-            initial={{ opacity: 0, y: 10 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: index * 0.05 }}
-          >
-            <MessageBubble {...msg} />
-          </motion.div>
-        ))}
-        {isLoading && (
-          <motion.div
-            initial={{ opacity: 0, y: 10 }}
-            animate={{ opacity: 1, y: 0 }}
-            className="flex justify-start"
-          >
-            <div className="bg-white text-gray-800 rounded-lg px-3 py-2 shadow-sm">
-              <div className="flex gap-1">
-                <div className="w-2 h-2 bg-gray-400 rounded-full animate-bounce" />
-                <div className="w-2 h-2 bg-gray-400 rounded-full animate-bounce" style={{ animationDelay: "0.1s" }} />
-                <div className="w-2 h-2 bg-gray-400 rounded-full animate-bounce" style={{ animationDelay: "0.2s" }} />
+    <div className="min-h-screen bg-gray-100 flex items-center justify-center p-4">
+      {/* Fixed WhatsApp-style Chat Window */}
+      <div className="w-full max-w-md h-screen max-h-[90vh] flex flex-col bg-[#e5ddd5] rounded-lg shadow-2xl overflow-hidden">
+        {/* Header */}
+        <motion.header
+          initial={{ opacity: 0, y: -20 }}
+          animate={{ opacity: 1, y: 0 }}
+          className="bg-emerald-600 text-white px-4 py-3 shadow-md flex-shrink-0"
+        >
+          <div className="flex items-center justify-between">
+            <div className="flex items-center gap-3">
+              <ArrowLeft className="w-6 h-6 cursor-pointer hover:opacity-80" />
+              <img 
+                src="https://files.manuscdn.com/user_upload_by_module/session_file/113294412/vjelJbwwyxEZxVOb.png"
+                alt="MMOCCUL Logo"
+                className="w-10 h-10 rounded-full object-cover bg-white p-1"
+              />
+              <div>
+                <div className="font-semibold text-base">MMOCCUL</div>
+                <div className="text-xs opacity-90">Online</div>
               </div>
             </div>
-          </motion.div>
-        )}
-        <div ref={messagesEndRef} />
-      </div>
+            <div className="flex items-center gap-5">
+              <Video className="w-5 h-5 cursor-pointer hover:opacity-80 transition-opacity" />
+              <Phone className="w-5 h-5 cursor-pointer hover:opacity-80 transition-opacity" />
+              <MoreVertical className="w-5 h-5 cursor-pointer hover:opacity-80 transition-opacity" />
+            </div>
+          </div>
+        </motion.header>
 
-      {/* Input Area */}
-      <motion.div
-        initial={{ opacity: 0, y: 20 }}
-        animate={{ opacity: 1, y: 0 }}
-        className="bg-gray-100 px-3 py-2 flex items-center gap-2"
-      >
-        <button className="text-gray-600 hover:text-gray-800 transition-colors">
-          <Smile className="w-6 h-6" />
-        </button>
-        <button className="text-gray-600 hover:text-gray-800 transition-colors">
-          <Paperclip className="w-6 h-6" />
-        </button>
-        <input
-          type="text"
-          value={message}
-          onChange={(e) => setMessage(e.target.value)}
-          onKeyPress={(e) => e.key === "Enter" && handleSend()}
-          placeholder="Type a message"
-          disabled={isLoading}
-          className="flex-1 bg-white rounded-full px-4 py-2 outline-none focus:ring-2 focus:ring-emerald-500 disabled:opacity-50"
-        />
-        {message.trim() ? (
-          <button
-            onClick={handleSend}
+        {/* Chat Messages Area */}
+        <div
+          className="flex-1 overflow-y-auto px-4 py-3 space-y-3 scroll-smooth"
+          style={{
+            backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M30 0L30 60M0 30L60 30' stroke='%23d9d9d9' stroke-width='0.5' fill='none' opacity='0.1'/%3E%3C/svg%3E")`,
+          }}
+        >
+          {displayMessages.map((msg, index) => (
+            <motion.div
+              key={index}
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: index * 0.05 }}
+            >
+              <MessageBubble {...msg} />
+            </motion.div>
+          ))}
+          {isLoading && (
+            <motion.div
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              className="flex justify-start"
+            >
+              <div className="bg-white text-gray-800 rounded-lg px-3 py-2 shadow-sm">
+                <div className="flex gap-1">
+                  <div className="w-2 h-2 bg-gray-400 rounded-full animate-bounce" />
+                  <div className="w-2 h-2 bg-gray-400 rounded-full animate-bounce" style={{ animationDelay: "0.1s" }} />
+                  <div className="w-2 h-2 bg-gray-400 rounded-full animate-bounce" style={{ animationDelay: "0.2s" }} />
+                </div>
+              </div>
+            </motion.div>
+          )}
+          <div ref={messagesEndRef} />
+        </div>
+
+        {/* Input Area */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          className="bg-gray-100 px-3 py-2 flex items-center gap-2 flex-shrink-0 border-t border-gray-200"
+        >
+          <button className="text-gray-600 hover:text-gray-800 transition-colors flex-shrink-0">
+            <Smile className="w-6 h-6" />
+          </button>
+          <button className="text-gray-600 hover:text-gray-800 transition-colors flex-shrink-0">
+            <Paperclip className="w-6 h-6" />
+          </button>
+          <input
+            type="text"
+            value={message}
+            onChange={(e) => setMessage(e.target.value)}
+            onKeyPress={(e) => e.key === "Enter" && handleSend()}
+            placeholder="Type a message"
             disabled={isLoading}
-            className="text-emerald-600 hover:text-emerald-700 transition-colors disabled:opacity-50"
-          >
-            <Send className="w-6 h-6" />
-          </button>
-        ) : (
-          <button className="text-gray-600 hover:text-gray-800 transition-colors">
-            <Mic className="w-6 h-6" />
-          </button>
-        )}
-      </motion.div>
+            className="flex-1 bg-white rounded-full px-4 py-2 outline-none focus:ring-2 focus:ring-emerald-500 disabled:opacity-50 text-sm"
+          />
+          {message.trim() ? (
+            <button
+              onClick={handleSend}
+              disabled={isLoading}
+              className="text-emerald-600 hover:text-emerald-700 transition-colors disabled:opacity-50 flex-shrink-0"
+            >
+              <Send className="w-6 h-6" />
+            </button>
+          ) : (
+            <button className="text-gray-600 hover:text-gray-800 transition-colors flex-shrink-0">
+              <Mic className="w-6 h-6" />
+            </button>
+          )}
+        </motion.div>
+      </div>
     </div>
   );
 }
