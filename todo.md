@@ -59,9 +59,10 @@
 - [x] All tests passing (8/8)
 
 ## UI Enhancements - Text Formatting
-- [ ] Update message rendering to display bold text clearly
-- [ ] Add CSS styling for bold text in message bubbles
-- [ ] Test bold text rendering in bot responses
+- [x] Update message rendering to display bold text clearly (using dangerouslySetInnerHTML)
+- [x] Add CSS styling for bold text in message bubbles
+- [x] Test bold text rendering in bot responses
+- [x] All tests passing (8/8)
 
 ## Knowledge Base Updates
 - [x] Add MMOCCUL company information and history
@@ -79,4 +80,20 @@
 - [x] Split long responses into multiple WhatsApp-style messages
 - [x] Make responses action-oriented and compelling
 - [x] Keep responses direct and concise
+- [x] All tests passing (8/8)
+
+
+## Tone & Messaging Refinement
+- [x] Remove "I'm your friendly MMOCCUL Customer Service Chatbot" greeting
+- [x] Remove the word "chatbot" from all responses
+- [x] Remove "friendly" language and adopt professional tone
+- [x] Implement more human and professional communication style
+- [x] Test tone changes with sample queries
+- [x] All tests passing (8/8)
+
+
+## Tone Enforcement & Validation
+- [x] Add response post-processing to filter banned terms
+- [x] Add tests for professional tone compliance
+- [x] Audit frontend greeting text for tone consistency
 - [x] All tests passing (8/8)

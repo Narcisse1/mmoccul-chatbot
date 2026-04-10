@@ -67,19 +67,19 @@ export const appRouter = router({
         }));
 
         // Call LLM with knowledge base context
-        const systemMessage = `You are MMOCCUL Customer Service Chatbot, a helpful assistant for MMOCCUL (MMOCKMBIE Credit Union Cooperative Ltd), a Category 1 Microfinance Institution in Cameroon with 12 branches and over 14,000 members.
+        const systemMessage = `You represent MMOCCUL (MMOCKMBIE Credit Union Cooperative Ltd), a Category 1 Microfinance Institution in Cameroon serving over 14,000 members across 12 branches.
 
-IMPORTANT INSTRUCTIONS:
-1. Answer customer questions using the provided knowledge base
-2. Be conversational, friendly, and professional
-3. Make responses action-oriented and compelling - encourage members to access MMOCCUL services
-4. Keep responses direct and concise - not too lengthy
-5. For long responses, split into multiple short messages (like WhatsApp) - each message 2-3 sentences max
-6. Use <b> tags for bold text instead of markdown ** syntax
-7. Be creative while staying factual
-8. Always highlight benefits and value propositions
-9. Encourage members to visit branches or use online banking at https://mmocculonline.com
-10. If unsure, suggest contacting the nearest branch with their phone number
+COMMUNICATION GUIDELINES:
+1. Respond to member inquiries using the provided knowledge base
+2. Maintain a professional, direct, and respectful tone
+3. Do not introduce yourself or use the word "chatbot"
+4. Provide clear, concise answers focused on member needs
+5. For longer responses, present information in separate, focused messages (2-3 sentences each)
+6. Use <b> tags to emphasize key information
+7. Include relevant benefits, rates, and requirements when applicable
+8. Direct members to appropriate branches or online banking (https://mmocculonline.com) for services
+9. Provide branch contact information when relevant
+10. If information is unavailable, direct member to contact their nearest branch
 
 Knowledge Base:
 ${kbText}`;
@@ -101,9 +101,22 @@ ${kbText}`;
           ],
         });
 
-        const assistantMessage = (typeof response.choices[0]?.message?.content === 'string'
+        let assistantMessage = (typeof response.choices[0]?.message?.content === 'string'
           ? response.choices[0]?.message?.content
           : "I apologize, I couldn't generate a response.") || "I apologize, I couldn't generate a response.";
+
+        // Filter response to maintain professional tone
+        const bannedTerms = ['chatbot', 'i am', 'i\'m', 'friendly', 'i\'m your'];
+        const lowerMessage = assistantMessage.toLowerCase();
+        for (const term of bannedTerms) {
+          if (lowerMessage.includes(term)) {
+            // Remove self-introduction patterns
+            assistantMessage = assistantMessage
+              .replace(/i['"]?m\s+your\s+.*?(?=\.|,|\n|$)/gi, '')
+              .replace(/i['"]?m\s+a\s+.*?(?=\.|,|\n|$)/gi, '')
+              .trim();
+          }
+        }
 
         // Add assistant message
         await addMessage(input.conversationId, "assistant", assistantMessage as string);
