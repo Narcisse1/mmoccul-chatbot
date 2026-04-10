@@ -57,3 +57,26 @@
 ## Recent Updates
 - [x] Increase chat window height (max-h-[95vh])
 - [x] All tests passing (8/8)
+
+## UI Enhancements - Text Formatting
+- [ ] Update message rendering to display bold text clearly
+- [ ] Add CSS styling for bold text in message bubbles
+- [ ] Test bold text rendering in bot responses
+
+## Knowledge Base Updates
+- [x] Add MMOCCUL company information and history
+- [x] Add money transfer services (Western Union, RIA, World-Remit, Orange, MTN)
+- [x] Update all branch locations with phone numbers
+- [x] Add saving account information with benefits
+- [x] Add loan application requirements (amount, duration, payback, purpose)
+- [x] Add group account and minor account services
+- [x] Add bill payment services (ENEO, CAM Water)
+- [x] Add ATM VISA Card services
+
+## Message Formatting & Tone
+- [x] Remove markdown ** bold syntax
+- [x] Implement actual bold text rendering with <b> tags
+- [x] Split long responses into multiple WhatsApp-style messages
+- [x] Make responses action-oriented and compelling
+- [x] Keep responses direct and concise
+- [x] All tests passing (8/8)

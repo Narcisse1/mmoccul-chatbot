@@ -27,7 +27,7 @@ function MessageBubble({ text, time, isBot, status }: MessageBubbleProps) {
             : "bg-emerald-500 text-white"
         }`}
       >
-        <p className="whitespace-pre-wrap break-words text-sm">{text}</p>
+        <p className="whitespace-pre-wrap break-words text-sm" dangerouslySetInnerHTML={{ __html: text }} />
         <div className="flex items-center justify-end gap-1 mt-1">
           <span className={`text-xs ${isBot ? "text-gray-500" : "text-emerald-100"}`}>
             {time}

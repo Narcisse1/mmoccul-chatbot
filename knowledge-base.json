@@ -1,96 +1,367 @@
 {
-  "knowledge_base": {
-    "account_opening": {
-      "title": "How to Become a Member of MMOCCUL",
-      "content": "Visit any of our 10+ branches across Cameroon with your national ID card (CNI or passport) and two passport-size photos. Pay the membership fee of 50,500 FCFA (Solidarity Fund: 12,000 FCFA + Building Fund: 8,500 FCFA + Share Capital: 30,000 FCFA) and your account is activated immediately on the same day. You'll receive your member number, passbook, and mobile banking credentials."
+  "company": {
+    "name": "MMOCCUL",
+    "fullName": "MMOCKMBIE Credit Union Cooperative Ltd",
+    "established": 2016,
+    "members": 14000,
+    "registration": "17/035/CMR/SW/55/290/CCA/360/3601",
+    "category": "Category 1 Microfinance",
+    "cobacAccreditation": "D-2021/317",
+    "minfiAccreditation": "0000381",
+    "ministry": "Ministry of Agriculture and Rural Development",
+    "tagline": "Your financial partner for growth and success"
+  },
+  "branches": [
+    {
+      "name": "MMOCKMBIE",
+      "location": "Market Square",
+      "city": "Yaoundé",
+      "phone": "672 97 69 68"
     },
-    "account_types": {
-      "title": "Account Types and Benefits",
-      "content": "MMOCCUL offers multiple account types: Main Account (comprises savings and deposit account at 50,500 FCFA with 5% yearly interest), Joint Accounts (for couples, families, and business partners with equal transaction rights), and Student Accounts (zero minimum balance after registration). You can have multiple account types under one membership. Benefits include 5% interest on both savings and shares, term deposits yielding 6% per year paid upfront, preference shares at 8% yearly, very low loan interest at 1.5% monthly calculated on balance, and banking partnership at almost no cost."
+    {
+      "name": "DAMAS",
+      "location": "Rond Point Damas",
+      "city": "Yaoundé",
+      "phone": "683 95 81 27"
     },
-    "savings_interest": {
-      "title": "Interest Rates on Savings",
-      "content": "MMOCCUL offers 5% annually on savings, one of the highest rates among financial institutions in Cameroon. The amazing part is we now give interest twice a year: by ending June and ending December. Your share capital of 30,000 FCFA serves as your minimum balance and represents your ownership stake in the cooperative. You can save any amount above this. For daily savings accounts, you can start with as little as 500 FCFA per day."
+    {
+      "name": "ETOUG EBE",
+      "location": "Montee centre",
+      "city": "Yaoundé",
+      "phone": "683 95 81 27"
     },
-    "visa_card": {
-      "title": "ATM Visa Card Application and Benefits",
-      "content": "To apply for the ATM Visa Card, you'll need a copy of your National ID, localization plan, and your NIU (Tax payer number). If you don't have the NIU, we can make it for you. The card costs 10,000 FCFA. Benefits include convenient access to funds and transactions, easy cash withdrawal, fund transfers and secure payments, and wide global acceptance for online shopping, bill payments, and use in different parts of the world."
+    {
+      "name": "MESSASSI",
+      "location": "Dispensaire Messassi",
+      "city": "Yaoundé",
+      "phone": "670 15 51 76"
     },
-    "school_loan": {
-      "title": "School Fees Loan Application",
-      "content": "To get a school loan: (1) First, open an account with us. (2) Provide these documents: A handwritten loan application letter (addressed to the General Manager of MMOCCUL), a photocopy of your national ID card, a recent payslip or proof of regular income, and a simple map (localization plan) to your residence. School fees loans are available up to 3M FCFA with processing within 3 business days from submission of complete documentation."
+    {
+      "name": "DOUALA VILLAGE",
+      "location": "Opposite Tradex Bonne Dix",
+      "city": "Douala",
+      "phone": "679 35 02 70"
     },
-    "business_loan": {
-      "title": "Business Loan Application",
-      "content": "For a business loan, you'll need: (1) A loan application letter (addressed to the General Manager of MMOCCUL), (2) A collateral (with documents), (3) Localization plan on where you live and also where the business is located, (4) Photocopy of ID card, (5) Full picture and passport size photo, (6) 20% of the amount you want in your account as cash collateral, (7) Fill the loan application form, (8) A Guarantor, his ID card and half picture (Guarantor needs 4% of the amount guaranteed), (9) A complete account with full shares, solidarity and building, (10) Loan charges is 3% of amount. Business loans are available up to 10M FCFA with processing within 5 business days."
+    {
+      "name": "DOUALA BONABERI",
+      "location": "General Express New Building",
+      "city": "Douala",
+      "phone": "653 05 11 28"
     },
-    "personal_loan": {
-      "title": "Personal Loan Requirements",
-      "content": "To be eligible for a personal loan you will need: (1) An updated account, (2) A minimum savings balance of at least 1/5 of the loan requested, (3) Two guarantors, (4) A collateral in case the loan amount is above a million. Personal loans are available up to 2M FCFA for emergency situations with 48-hour processing."
+    {
+      "name": "DSCHANG",
+      "location": "Beside Alimentation Forbin (Marché A)",
+      "city": "Dschang",
+      "phone": "683 08 05 29"
     },
-    "loan_types": {
-      "title": "Types of Loans Available",
-      "content": "MMOCCUL offers six main loan types: (1) School Fees Loans (up to 3M FCFA), (2) Salary Advance (up to 5M FCFA, 24-hour processing), (3) Business Loans (up to 10M FCFA), (4) Agricultural Loans (up to 5M FCFA with seasonal repayment), (5) Plot/Housing Loans (up to 20M FCFA, 60-month term), and (6) Emergency Loans (up to 2M FCFA, 48-hour processing). Each type has competitive rates starting from 1.5% per month."
+    {
+      "name": "BAFOUSSAM",
+      "location": "Ancien Cinéma 4 Étio (Entrée Marché B)",
+      "city": "Bafoussam",
+      "phone": "682 86 72 80"
     },
-    "loan_approval_timeline": {
-      "title": "Loan Approval Processing Times",
-      "content": "Processing times vary by loan type: Salary advance loans within 24 hours, Emergency loans within 48 hours, School fees loans within 3 business days, Business and Agricultural loans within 5 business days, and Housing loans within 7-10 business days. All times are from submission of complete documentation."
+    {
+      "name": "BUEA",
+      "location": "UB Junction, Opposite TFC Restaurant",
+      "city": "Buea",
+      "phone": "681 26 60 11"
     },
-    "loan_collateral": {
-      "title": "Loan Collateral Requirements",
-      "content": "Requirements vary by loan type: Salary advance needs a guarantee letter from your employer. School fees loans need an admission letter or fee invoice plus a guarantor. Business loans over 2M FCFA may require asset (collateral) documentation. Housing loans require a land certificate or property valuation. Agricultural loans require farm documentation."
+    {
+      "name": "KUMBA",
+      "location": "Mbo'o Street Junction",
+      "city": "Kumba",
+      "phone": "652 63 44 95"
     },
-    "early_repayment": {
-      "title": "Early Loan Repayment",
-      "content": "Absolutely! Early repayment is encouraged and there are no penalties for paying off your loan before the due date. In fact, early repayment improves your credit score within MMOCCUL and may qualify you for larger loans at better rates in the future."
+    {
+      "name": "BAMENDA",
+      "location": "Food Market, E Square Plaza Building",
+      "city": "Bamenda",
+      "phone": "673 89 29 30"
     },
-    "missed_payment": {
-      "title": "What Happens if I Miss a Payment",
-      "content": "We understand that financial difficulties can arise. If you anticipate difficulty making a payment, contact your branch immediately. We offer payment rescheduling, grace periods, and restructuring options. Late payments do incur a small penalty fee, and persistent defaults may affect your ability to access future loans."
-    },
-    "joint_account": {
-      "title": "Joint Account Options",
-      "content": "Yes! MMOCCUL offers joint accounts for couples, families, and business partners. Both account holders must present valid ID cards and passport photos. Joint accounts have equal rights to transactions unless specified otherwise. Joint account holders can also designate different authorization levels for withdrawals."
-    },
-    "minimum_balance": {
-      "title": "Minimum Balance Requirements",
-      "content": "Your share capital of 30,000 FCFA serves as your minimum balance and represents your ownership stake in the cooperative. You can save any amount above this. For daily savings accounts, you can start with as little as 500 FCFA per day. Student accounts have zero minimum balance after the initial registration."
-    },
-    "branch_transfer": {
-      "title": "Membership Transfer Between Branches",
-      "content": "Yes, membership transfers between branches are seamless and free. Simply visit your current branch, request a transfer form, and your account will be moved to your preferred branch within 48 hours. Your account history, savings, and loan status all transfer with you."
-    },
-    "account_closure": {
-      "title": "Account Closure Process",
-      "content": "You can close your account at any time by visiting your branch. Your share capital (30,000 FCFA) will be refunded after deducting any outstanding obligations. The solidarity fund and building fund are non-refundable as they contribute to the cooperative's community development programs."
-    },
-    "multiple_accounts": {
-      "title": "Multiple Account Types",
-      "content": "Yes, you can have multiple account types under one membership — for example, a regular savings account, a term deposit, and a business account. Each account type serves different financial needs and may have different terms and features."
-    },
-    "mobile_banking_registration": {
-      "title": "How to Access Mobile Banking",
-      "content": "Step-by-step guide: (1) Open the link https://mmocculonline.com (2) Login or Register - If already registered, log in using your username and password. If first time, click 'Register for Internet Banking' (3) Enter your account details - Enter your Account ID (contact bank staff if unknown), Username (should be your phone number) (4) Verify your email - Ensure correct email registered in system (5) Validate your code - Open email, copy code, paste into required field, click 'Validate' (6) Registration Successful - You'll receive SMS with temporary password (7) Login to your account - Enter Username (phone number) and password sent via SMS (8) Choose two security questions and provide answers (9) Complete registration - System redirects to login page (10) Enter Username and Password, then press login"
-    },
-    "mobile_banking_features": {
-      "title": "Mobile Banking Capabilities",
-      "content": "Our app offers: balance checks, transaction history, member-to-member transfers, bill payments (ENEO, CAMWATER, phone airtime), loan applications, savings goal tracking, statement downloads, branch locator, and direct WhatsApp support. Essentially, everything you can do at a branch except cash deposits and withdrawals."
-    },
-    "transaction_security": {
-      "title": "Transaction Security",
-      "content": "Absolutely. We use bank-grade 256-bit SSL encryption, two-factor authentication (OTP + PIN or biometric), real-time fraud monitoring, and session timeouts. Every transaction triggers an instant SMS alert so you're always informed. Our systems are audited quarterly by COBAC-approved security firms."
-    },
-    "mobile_money_integration": {
-      "title": "Orange Money and MTN Mobile Money Integration",
-      "content": "Yes! You can deposit to your MMOCCUL account from Orange Money or MTN Mobile Money, and withdraw from MMOCCUL to your mobile money wallet. Transfers are instant and available 24/7. This makes banking accessible even in remote areas without MMOCCUL branches."
-    },
-    "account_succession": {
-      "title": "Account Succession Upon Death",
-      "content": "MMOCCUL has a clear succession process. Your designated beneficiary (named during account opening) can claim your savings, share capital, and any other account balances upon presenting: death certificate, beneficiary ID, and court appointment letter."
-    },
-    "branches": {
-      "title": "MMOCCUL Branches Locations",
-      "content": "MMOCCUL has 10+ branches across Cameroon: Mmockmbie Branch (Located at the market square), Yaounde - Damas Branch (At Rond Point Damas), Yaounde - Messassi Branch (At Dispensaire Messassi), Yaounde - Etoug-Ebe (At Centre Handicapes), Douala - Douala Village (Opposite Tradex Bonne Dix, Village), Douala - Bonaberi Village (General Express New Building), Dschang Branch (Beside Alimentation Forbin - Marche A), Bafoussam Branch (Ancien Cinema 4 Etio - Entree Marche B), Buea Branch (UB Junction opposite TFC Restaurant), Bamenda Branch (Food Market – E square plaza building), Kumba Branch (Mbo'o Street Junction), Bertoua Branch (Rue Grand Total Ndouan)"
+    {
+      "name": "BERTOUA",
+      "location": "Rue Grand Total Ndouan",
+      "city": "Bertoua",
+      "phone": "652 77 91 59"
     }
+  ],
+  "membership": {
+    "fee": 50500,
+    "currency": "FCFA",
+    "breakdown": {
+      "shareCapital": 30000,
+      "solidarityFund": 12000,
+      "buildingReserve": 8500
+    },
+    "requirements": [
+      "National ID card (CNI or passport)",
+      "Two passport-size photos"
+    ],
+    "benefits": [
+      "5% annual interest on share capital",
+      "Co-ownership of MMOCCUL",
+      "Voice in institution decisions",
+      "Access to all services",
+      "Refundable share capital when leaving"
+    ]
+  },
+  "savings": {
+    "dailySavings": {
+      "minimum": 500,
+      "currency": "FCFA",
+      "interestRate": "5% per year"
+    },
+    "interestPayment": "Twice yearly - June 30 and December 31",
+    "studentMinimum": "Zero minimum balance after registration",
+    "savingsAccount": {
+      "description": "Represents your capital and revenue for unforeseen circumstances and future investments",
+      "interestRate": "5% annually - one of the highest in Cameroon",
+      "paymentFrequency": "Twice per year"
+    }
+  },
+  "investmentProducts": {
+    "termDeposit": {
+      "minimum": 100000,
+      "minDuration": "3 months",
+      "interestRate": "6% per year",
+      "paymentTiming": "Paid upfront before term ends",
+      "description": "Smart way to grow idle money"
+    },
+    "preferenceShares": {
+      "value": 100000,
+      "interestRate": "8% per year - highest rate offered",
+      "redeemableAfter": "5 years",
+      "description": "For members wanting maximum return on investment"
+    }
+  },
+  "loans": {
+    "generalRequirements": [
+      "Handwritten application letter to General Manager",
+      "Devi (itemized spending plan)",
+      "Minimum savings of 20% of loan amount",
+      "Valid ID card"
+    ],
+    "loanApplication": {
+      "mustInclude": [
+        "Loan amount",
+        "Duration",
+        "Payback time",
+        "Purpose of loan"
+      ],
+      "deviRequired": "Clear, itemized plan showing exactly how you intend to spend the money"
+    },
+    "interestRate": "Starting from 1.5% per month on remaining balance",
+    "processingFee": "3% of loan amount (one-time)",
+    "earlyRepayment": "No penalties - builds credit standing for larger loans",
+    "repaymentDifficulty": "Contact your branch for rescheduling, grace periods, or restructuring",
+    "types": {
+      "schoolFeesLoan": {
+        "maxAmount": 3000000,
+        "approvalTime": "3 business days",
+        "description": "Never let school fees stand in the way of education",
+        "requirements": [
+          "Active MMOCCUL account",
+          "Handwritten application",
+          "Devi with fee breakdown",
+          "20% savings in account",
+          "National ID copy",
+          "School admission letter or fee invoice",
+          "Recent payslip or income proof",
+          "Localization plan",
+          "Guarantor"
+        ]
+      },
+      "salaryAdvance": {
+        "maxAmount": 5000000,
+        "approvalTime": "24 hours",
+        "description": "Quick access to funds when you need them"
+      },
+      "businessLoan": {
+        "maxAmount": 10000000,
+        "approvalTime": "5 business days",
+        "description": "Fuel your hustle and grow your enterprise",
+        "requirements": [
+          "Handwritten application",
+          "Devi with expense breakdown",
+          "20% savings in account",
+          "Collateral for loans over 2,000,000",
+          "Localization plan (home and business)",
+          "National ID copy",
+          "Full photo and passport photo",
+          "Loan application form",
+          "Guarantor with ID and photo",
+          "Guarantor's 4% contribution",
+          "Complete MMOCCUL account"
+        ]
+      },
+      "personalLoan": {
+        "maxAmount": 2000000,
+        "approvalTime": "48 hours",
+        "description": "For medical, family, or home improvement needs",
+        "requirements": [
+          "Active, up-to-date MMOCCUL account",
+          "Handwritten application",
+          "Devi",
+          "20% savings in account",
+          "Two guarantors",
+          "Collateral if exceeding 1,000,000"
+        ]
+      },
+      "realEstateLoan": {
+        "maxAmount": 20000000,
+        "repaymentPeriod": "Up to 60 months",
+        "approvalTime": "7-10 business days",
+        "description": "Build the home you've always dreamed of",
+        "requirements": [
+          "Land certificate or property valuation"
+        ]
+      },
+      "agriculturalLoan": {
+        "maxAmount": 5000000,
+        "feature": "Repayment schedule built around harvest cycle",
+        "description": "Designed specifically for farmers with seasonal income"
+      },
+      "emergencyLoan": {
+        "maxAmount": 2000000,
+        "approvalTime": "48 hours",
+        "description": "When life catches you off guard"
+      }
+    }
+  },
+  "visaCard": {
+    "cost": 10000,
+    "currency": "FCFA",
+    "description": "Your financial freedom card",
+    "requirements": [
+      "National ID copy",
+      "Localization plan",
+      "NIU (Taxpayer Number) - we can help obtain"
+    ],
+    "features": [
+      "ATM cash withdrawals anytime",
+      "Online shopping from anywhere in the world",
+      "Bill payments quickly and securely",
+      "International use wherever Visa accepted",
+      "24/7 access to your funds"
+    ]
+  },
+  "mobileBanking": {
+    "website": "https://mmocculonline.com",
+    "description": "Your bank in your pocket - open 24/7",
+    "features": [
+      "Check balance instantly",
+      "View transaction history",
+      "Transfer to MMOCCUL members",
+      "Pay bills (ENEO, CAMWATER, airtime)",
+      "Apply for loans",
+      "Track savings goals",
+      "Download statements",
+      "Find nearest branch",
+      "Chat with us directly on WhatsApp"
+    ],
+    "limitations": "Cannot deposit or withdraw physical cash online",
+    "security": [
+      "256-bit SSL encryption - same as global banks",
+      "Two-factor authentication (OTP + PIN or biometric)",
+      "Real-time fraud monitoring around the clock",
+      "Automatic session timeouts for extra safety",
+      "Instant SMS alerts for every transaction",
+      "Quarterly independent audits by COBAC-approved firms"
+    ],
+    "setup": {
+      "steps": [
+        "Visit https://mmocculonline.com",
+        "Click Register for Internet Banking",
+        "Enter your account details",
+        "Set username as your phone number",
+        "Verify your email",
+        "Copy validation code from email and paste it",
+        "Receive temporary password via SMS",
+        "Log in and set up security questions",
+        "Complete registration"
+      ]
+    }
+  },
+  "mobileMoneyIntegration": {
+    "partners": [
+      "Orange Money",
+      "MTN Mobile Money"
+    ],
+    "features": [
+      "Deposit from mobile wallet to MMOCCUL instantly",
+      "Withdraw from MMOCCUL to mobile wallet instantly",
+      "Available 24/7 even far from branches"
+    ]
+  },
+  "moneyTransfer": {
+    "international": [
+      "Western Union",
+      "RIA",
+      "World-Remit"
+    ],
+    "national": [
+      "Orange Money",
+      "MTN Mobile Money"
+    ],
+    "availability": "Members and non-members from any part of the world",
+    "description": "Instant money transfer services"
+  },
+  "additionalServices": [
+    "Group Account",
+    "Minor Account",
+    "Daily Saving",
+    "Bill Payment (ENEO and CAM Water)",
+    "ATM VISA Card services",
+    "Joint Accounts"
+  ],
+  "branchHours": {
+    "days": "Monday to Saturday",
+    "hours": "8:00 AM to 4:30 PM",
+    "note": "Available 24/7 via WhatsApp and online banking"
+  },
+  "jointAccounts": {
+    "eligibility": "Couples, families, business partners",
+    "requirements": [
+      "Both parties present valid ID",
+      "Passport photos for both"
+    ],
+    "features": [
+      "Equal transaction rights",
+      "Customizable authorization levels",
+      "Full control together"
+    ]
+  },
+  "accountTransfer": {
+    "cost": "Completely free",
+    "processingTime": "48 hours",
+    "includes": "Full account history, savings, and loan status",
+    "description": "Seamless transfer when you relocate"
+  },
+  "accountClosure": {
+    "refunds": [
+      "Share capital (30,000 FCFA) - fully refunded after obligations settled",
+      "Solidarity fund - non-refundable",
+      "Building reserve - non-refundable"
+    ],
+    "note": "Your money is safe with us, always"
+  },
+  "beneficiary": {
+    "requirements": [
+      "Death certificate",
+      "Valid ID card of beneficiary",
+      "Court appointment letter"
+    ],
+    "receives": "Full savings, share capital, and all account balances",
+    "description": "Your legacy reaches the people you care about most"
+  },
+  "multipleAccounts": {
+    "allowed": true,
+    "description": "Under a single membership, hold multiple account types",
+    "examples": [
+      "Regular savings account",
+      "Term deposit",
+      "Business account",
+      "And more"
+    ]
   }
 }
