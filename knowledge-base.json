@@ -1,4 +1,22 @@
 {
+  "meta": {
+    "title": "MMOCCUL WhatsApp Customer Service Bot — Q&A Training Data",
+    "lastUpdated": "April 2026",
+    "version": "2.0"
+  },
+
+  "botBehaviourGuidelines": {
+    "languages": "Respond in English, French, or Cameroon Pidgin English based on the language the customer writes in.",
+    "tone": "Professional, friendly, direct, and human. Moderate warmth — not overly enthusiastic.",
+    "emojis": "Use sparingly and professionally to aid readability.",
+    "length": "Keep answers concise and direct. Do not over-explain.",
+    "leadingQuestions": "End relevant conversations with a follow-up question to guide the customer toward taking action.",
+    "outsideCameroon": "Direct international customers to https://mmocculonline.com for all transactions.",
+    "creativity": "Vary responses naturally — don't sound robotic or repetitive.",
+    "loanAmounts": "Do not state maximum loan amounts.",
+    "conversationFeel": "Responses should feel human, compelling, and meet customer needs."
+  },
+
   "company": {
     "name": "MMOCCUL",
     "fullName": "MMOCKMBIE Credit Union Cooperative Ltd",
@@ -11,8 +29,10 @@
     "ministry": "Ministry of Agriculture and Rural Development",
     "tagline": "Your financial partner for growth and success",
     "awards": "Fastest-Growing and Digital Friendly Credit Union Cooperative in Cameroon (past 4 years)",
-    "description": "MMOCCUL is a member-owned and managed financial union dedicated to mobilizing savings and providing loans to its members at low interest rates. Membership is open to everyone."
+    "description": "MMOCCUL is a member-owned and managed financial union dedicated to mobilizing savings and providing loans to its members at low interest rates. Membership is open to everyone.",
+    "website": "https://mmoccul.com"
   },
+
   "branches": [
     {
       "name": "MMOCKMBIE",
@@ -22,176 +42,799 @@
       "note": "Headquarters"
     },
     {
-      "name": "YAOUNDÉ - DAMAS",
+      "name": "YAOUNDÉ — DAMAS",
       "location": "Rond Point Damas",
       "city": "Yaoundé",
       "phone": "683 95 81 27"
     },
     {
-      "name": "YAOUNDÉ - ETOUG EBE",
-      "location": "Montee centre",
+      "name": "YAOUNDÉ — ETOUG EBE",
+      "location": "Montée Centre Handicapés",
       "city": "Yaoundé",
       "phone": "683 95 81 27"
     },
     {
-      "name": "YAOUNDÉ - MESSASSI",
+      "name": "YAOUNDÉ — MESSASSI",
       "location": "Dispensaire Messassi",
       "city": "Yaoundé",
       "phone": "670 15 51 76"
     },
     {
-      "name": "DOUALA - VILLAGE",
-      "location": "Opposite Tradex Bonne Dix",
+      "name": "DOUALA — VILLAGE",
+      "location": "Opposite Tradex Bonne Dix, Village",
       "city": "Douala",
       "phone": "679 35 02 70"
     },
     {
-      "name": "DOUALA - BONABERI",
+      "name": "DOUALA — BONABERI",
       "location": "General Express New Building",
       "city": "Douala",
       "phone": "653 05 11 28"
     },
     {
       "name": "DSCHANG",
-      "location": "City Center",
+      "location": "Beside Alimentation Forbin (Marché A)",
       "city": "Dschang",
       "phone": "683 08 05 29"
     },
     {
       "name": "BAFOUSSAM",
-      "location": "City Center",
+      "location": "Ancien Cinéma 4 Étio (Entrée Marché B)",
       "city": "Bafoussam",
       "phone": "682 86 72 80"
     },
     {
       "name": "BUEA",
-      "location": "City Center",
+      "location": "UB Junction, Opposite TFC Restaurant",
       "city": "Buea",
       "phone": "681 26 60 11"
     },
     {
       "name": "KUMBA",
-      "location": "City Center",
+      "location": "Mbo'o Street Junction",
       "city": "Kumba",
       "phone": "652 63 44 95"
     },
     {
       "name": "BAMENDA",
-      "location": "City Center",
+      "location": "Food Market, E Square Plaza Building",
       "city": "Bamenda",
       "phone": "673 89 29 30"
     },
     {
       "name": "BERTOUA",
-      "location": "City Center",
+      "location": "Rue Grand Total Ndouan",
       "city": "Bertoua",
       "phone": "652 77 91 59"
     }
   ],
+
+  "operatingHours": {
+    "days": "Monday to Saturday",
+    "open": "8:00 AM",
+    "close": "4:30 PM",
+    "note": "Closed Sundays and public holidays. Available 24/7 via WhatsApp and mmocculonline.com"
+  },
+
   "membership": {
     "requirements": [
-      "Provide a current National Identity Card or Passport",
-      "Submit two passport-sized photos (4x4 cm)",
-      "Pay solidarity fund of 12,000 FCFA",
-      "Pay building reserve fee of 8,500 FCFA",
-      "Purchase shares worth 30,000 FCFA (reimbursable with six-month advance application)"
+      "Current National Identity Card or Passport",
+      "Two passport-sized photos (4x4 cm)",
+      "Solidarity Fund payment: 12,000 FCFA",
+      "Building Reserve payment: 8,500 FCFA",
+      "Share Capital purchase: 30,000 FCFA (reimbursable with six-month advance application)"
     ],
     "totalInitialPayment": "50,500 FCFA",
+    "breakdown": {
+      "shareCapital": {
+        "amount": "30,000 FCFA",
+        "description": "Your money. Earns 5% interest annually. Refundable with 6 months' notice."
+      },
+      "solidarityFund": {
+        "amount": "12,000 FCFA",
+        "description": "Powers community support programs that protect members in times of need. Non-refundable."
+      },
+      "buildingReserve": {
+        "amount": "8,500 FCFA",
+        "description": "Strengthens the institution you co-own. Non-refundable."
+      }
+    },
     "openToEveryone": true,
+    "activationTime": "Same day",
     "benefits": [
       "Safe and insured financial institution",
-      "Save and withdraw money whenever needed, from the comfort of your home",
-      "Easy access to loans at good conditions with low interest rates",
+      "Save and withdraw money anytime, from the comfort of your home",
+      "Easy access to loans at low interest rates",
       "Facilities to open accounts for specific purposes",
-      "High annual interest rate on your savings",
+      "One of the highest annual interest rates on savings in Cameroon (5%, paid twice yearly)",
       "Free SMS banking",
       "MMOCCUL cash collection services",
-      "Mobile banking",
+      "Mobile & internet banking",
       "Bank statements",
       "Cheque clearance",
-      "Standing order",
-      "Free interbranch money transfer and withdrawal from any branch"
+      "Standing orders",
+      "Free inter-branch money transfer and withdrawal from any branch"
     ]
   },
-  "products": {
-    "savingAccount": {
-      "name": "Saving Account",
-      "description": "Your capital and reserves for unforeseen circumstances and future investments. Yields very high interests at the end of the year."
+
+  "accounts": {
+    "savingsAccount": {
+      "name": "Savings Account",
+      "description": "Your financial foundation and capital reserve for unforeseen circumstances and future investments. Earns high interest at year-end.",
+      "minimumDailyDeposit": "500 FCFA"
     },
     "depositAccount": {
-      "name": "Deposit Account",
-      "description": "Serves as a current account where money is deposited and withdrawn at will for your daily transactions."
+      "name": "Deposit (Current) Account",
+      "description": "A flexible account for daily transactions. Deposit and withdraw freely at any time."
     },
     "studentAccount": {
       "name": "Student Account",
-      "description": "Special account designed for students to manage their finances efficiently."
+      "description": "Designed for students. Zero minimum balance after registration. Access to savings benefits.",
+      "minimumBalance": "Zero after registration"
     },
     "dailySavingAccount": {
       "name": "Daily Saving Account",
-      "description": "Encourages regular daily savings with attractive returns."
+      "description": "Save small consistent amounts daily and watch them grow with attractive returns.",
+      "minimumDeposit": "500 FCFA/day"
     },
     "minorAccount": {
       "name": "Minor Account",
-      "description": "Account for members under the age of 18. Parents and guardians can create accounts for their children."
+      "description": "Account for members under the age of 18. Parents and guardians can open accounts for their children.",
+      "eligibility": "Under 18 years old"
     },
     "groupAccount": {
       "name": "Group Account",
-      "description": "Account for groups and associations to manage collective finances."
+      "description": "Account for groups, associations, and cooperatives to manage collective finances."
+    },
+    "jointAccount": {
+      "name": "Joint Account",
+      "description": "Available for couples, families, and business partners. Both parties present valid IDs and passport photos. Equal transaction rights with configurable authorization levels."
+    },
+    "termDeposit": {
+      "name": "Term Deposit",
+      "minimumAmount": "100,000 FCFA",
+      "minimumTerm": "3 months",
+      "interestRate": "6% per year",
+      "interestPayment": "Paid upfront",
+      "description": "Commit a fixed amount for a fixed term and earn 6% interest per year, paid before the term ends."
+    },
+    "memberShares": {
+      "name": "Member Shares",
+      "minimumAmount": "30,000 FCFA",
+      "interestRate": "5% per year",
+      "interestPayment": "Twice yearly — end of June and end of December",
+      "description": "Owning shares makes you a co-owner of MMOCCUL. Earns 5% interest annually, paid twice per year."
+    },
+    "preferenceShares": {
+      "name": "Preference Shares",
+      "costPerShare": "100,000 FCFA",
+      "interestRate": "8% per year",
+      "redemption": "Redeemable after 5 years",
+      "description": "MMOCCUL's highest-yielding investment. Ideal for long-term financial growth."
     }
   },
+
   "loans": {
-    "description": "We offer diverse loans that serve your project needs with flexible terms and low interest rates",
+    "generalRequirements": {
+      "handwrittenLetter": {
+        "addressedTo": "General Manager of MMOCCUL",
+        "mustInclude": [
+          "Loan amount requested",
+          "Loan duration",
+          "Proposed repayment schedule (payback time)",
+          "Purpose of the loan"
+        ]
+      },
+      "devi": "Itemized breakdown of exactly how the loan money will be spent (e.g., fees list, equipment costs, materials, etc.)",
+      "minimumSavingsCollateral": "1/5 (20%) of the loan amount must be in your account"
+    },
+    "interestRate": {
+      "startingRate": "1.5% per month",
+      "calculationBasis": "Remaining balance, not original loan amount",
+      "processingFee": "3% of the loan amount (one-time)"
+    },
+    "earlyRepayment": {
+      "penalties": "None",
+      "benefit": "Improves credit profile and eligibility for larger loans at better rates"
+    },
+    "missedPayment": {
+      "options": ["Payment rescheduling", "Grace periods", "Loan restructuring"],
+      "warning": "Late payments attract a penalty fee. Persistent default affects future loan access.",
+      "advice": "Contact your branch immediately — don't wait."
+    },
+    "processingTimes": {
+      "salaryAdvance": "Within 24 hours",
+      "emergencyLoan": "Within 48 hours",
+      "schoolFeesLoan": "Within 3 business days",
+      "businessAndAgriculturalLoans": "Within 5 business days",
+      "realEstateLoan": "Within 7–10 business days"
+    },
     "types": [
       {
-        "name": "School Fee Loans",
-        "description": "Financing for education expenses to ensure your children's academic success"
+        "name": "School Fees Loan",
+        "emoji": "🎓",
+        "description": "Financing for education expenses so school fees never interrupt learning.",
+        "additionalRequirements": [
+          "Active MMOCCUL account",
+          "Handwritten application letter (amount, duration, repayment plan, purpose)",
+          "Devi — itemized fee breakdown (tuition, registration, accommodation, etc.)",
+          "Savings of at least 1/5 (20%) of loan amount in account",
+          "Photocopy of National ID card",
+          "Admission letter or school fee invoice",
+          "Recent payslip or proof of regular income",
+          "Localization plan (map to home)",
+          "A guarantor"
+        ]
       },
       {
-        "name": "Container Removal Loans",
-        "description": "Loans for importing goods and managing container logistics"
+        "name": "Salary Advance",
+        "emoji": "💼",
+        "description": "Fast cash advance against your salary. Approved in as little as 24 hours.",
+        "processingTime": "24 hours"
       },
       {
-        "name": "Project Financing",
-        "description": "Comprehensive financing for business and personal projects"
+        "name": "Business Loan",
+        "emoji": "📈",
+        "description": "Financing to launch, expand, or stock your business.",
+        "additionalRequirements": [
+          "Handwritten application letter (amount, duration, repayment plan, purpose)",
+          "Two passport-size photos",
+          "Business plan and estimate",
+          "Devi — detailed expense breakdown (stock, rent, equipment, etc.)",
+          "Savings of at least 1/5 (20%) of loan amount in account",
+          "Localization plan (home and business)",
+          "Collateral security with documents",
+          "Proof of income",
+          "Financial statements (tax returns, balance sheet — depending on business type)",
+          "Photocopy of NIC (signed thrice)",
+          "Full photo and passport-size photo",
+          "Completed loan application form",
+          "Guarantor(s) with ID card and half-picture; must hold MMOCCUL account and contribute 4% of loan amount",
+          "Complete MMOCCUL account (shares, solidarity fund, building reserve in order)"
+        ]
       },
       {
-        "name": "Njangui Financing",
-        "description": "Loans to support traditional savings groups and community financing"
+        "name": "Personal Loan",
+        "emoji": "👤",
+        "description": "Flexible loan for personal needs — medical, family, home improvement, and more.",
+        "additionalRequirements": [
+          "Active, up-to-date MMOCCUL account",
+          "Handwritten application letter (amount, duration, repayment plan, purpose)",
+          "Devi — breakdown of intended use",
+          "Savings of at least 1/5 (20%) of loan amount",
+          "Two guarantors",
+          "Collateral required if loan exceeds 1,000,000 FCFA"
+        ]
       },
       {
-        "name": "Plot Financing",
-        "description": "Loans for land acquisition and property development"
+        "name": "Real-Estate Loan",
+        "emoji": "🏠",
+        "description": "Finance land acquisition or home construction with a repayment term of up to 60 months.",
+        "repaymentTerm": "Up to 60 months",
+        "additionalRequirements": [
+          "Land certificate or property valuation document"
+        ]
       },
       {
-        "name": "Overdraft",
-        "description": "Short-term credit facility for immediate cash needs"
+        "name": "Agricultural Loan",
+        "emoji": "🌾",
+        "description": "Crop and livestock financing with a repayment schedule built around harvest cycles.",
+        "additionalRequirements": [
+          "Farm documentation"
+        ]
       },
       {
         "name": "Agropastoral Financing",
-        "description": "Specialized loans for agricultural and livestock projects"
+        "emoji": "🐄",
+        "description": "Specialized loans for farming and livestock investment. Seasonal repayment aligned with income cycles."
+      },
+      {
+        "name": "Emergency Loan",
+        "emoji": "🚨",
+        "description": "Fast access to funds when life catches you off guard. Processed within 48 hours.",
+        "processingTime": "48 hours"
+      },
+      {
+        "name": "Container Removal Loan",
+        "emoji": "📦",
+        "description": "Covers port clearing and forwarding costs for importing goods. Helps businesses avoid delays."
+      },
+      {
+        "name": "Project Financing",
+        "emoji": "💡",
+        "description": "Comprehensive financing for structured personal or professional projects."
+      },
+      {
+        "name": "Njangui Financing",
+        "emoji": "🤝",
+        "description": "Financing to support traditional savings groups. Covers lump-sum contributions and commitments within cooperative savings circles."
+      },
+      {
+        "name": "Overdraft",
+        "emoji": "💳",
+        "description": "Short-term credit facility that lets you go below your balance within an approved limit. Ideal for salary earners and business owners needing short-term flexibility."
       }
     ],
-    "salaryPayment": "We pay Civil Servants and Private Workers. Those whose salaries are paid through MMOCCUL obtain loans with very favorable conditions."
+    "salaryDomiciliation": {
+      "eligible": ["Civil Servants", "Private Sector workers"],
+      "benefit": "Members whose salaries are domiciled at MMOCCUL receive easier loan conditions — faster processing and more flexible terms."
+    }
   },
+
   "services": {
     "moneyTransfer": {
       "name": "Money Transfer Services",
-      "description": "Instant money transfer services available to members and non-members worldwide",
+      "description": "Instant money transfer available to members and non-members alike.",
       "international": ["Western Union", "RIA", "World-Remit"],
-      "national": ["Orange Money", "MTN Mobile Money"]
+      "national": ["Orange Money", "MTN Mobile Money"],
+      "availability": "24/7, instant",
+      "eligibility": "Members and non-members"
     },
     "billPayment": {
       "name": "Bill Payment Services",
-      "description": "Easy payment of utilities",
-      "utilities": ["ENEO (Electricity)", "CAMWATER (Water)"]
+      "utilities": ["ENEO (Electricity)", "CAMWATER (Water)"],
+      "channels": ["Any branch", "Mobile banking platform"]
     },
-    "atmVisa": {
-      "name": "ATM VISA Card Services",
-      "description": "Access your funds anytime, anywhere with our ATM VISA cards"
+    "atmVisaCard": {
+      "name": "ATM VISA Card",
+      "cost": "10,000 FCFA",
+      "requirements": [
+        "Copy of National ID card",
+        "Localization plan (map to home)",
+        "NIU (Taxpayer Number) — can be assisted with obtaining one"
+      ],
+      "features": [
+        "ATM cash withdrawals",
+        "Online shopping worldwide",
+        "Bill payments (ENEO, CAMWATER, etc.)",
+        "International use wherever Visa is accepted"
+      ],
+      "availability": "24/7"
+    },
+    "mobileBanking": {
+      "name": "Mobile & Internet Banking",
+      "website": "https://mmocculonline.com",
+      "registrationSteps": [
+        "Visit https://mmocculonline.com",
+        "Click 'Register for Internet Banking'",
+        "Enter account details (contact branch if Account ID is unknown)",
+        "Set username as your phone number",
+        "Verify email with the code sent",
+        "Log in with the temporary SMS password",
+        "Set up two security questions"
+      ],
+      "features": [
+        "Check balance and transaction history",
+        "Transfer funds to other MMOCCUL members",
+        "Pay ENEO, CAMWATER, and airtime bills",
+        "Apply for loans",
+        "Track savings goals",
+        "Download account statements",
+        "Find nearest branch",
+        "WhatsApp support"
+      ],
+      "availability":"24/7, instant",
+      "security": {
+        "encryption": "256-bit SSL (bank-grade)",
+        "authentication": "Two-factor (OTP + PIN or biometric)",
+        "monitoring": "Real-time fraud monitoring",
+        "sessionTimeout": "Automatic",
+        "alerts": "Instant SMS per transaction",
+        "audit": "Quarterly by COBAC-approved security firms"
+      }
+    },
+    "smsBanking": {
+      "name": "SMS Banking",
+      "cost": "Free",
+      "description": "Instant SMS alerts for every transaction on your account."
+    },
+    "cashCollection": {
+      "name": "Cash Collection Services",
+      "description": "MMOCCUL can collect cash deposits on your behalf."
+    },
+    "salaryPayment": {
+      "name": "Salary Payment",
+      "eligible": ["Civil Servants", "Private Workers"],
+      "benefit": "Salary domiciliation at MMOCCUL unlocks preferential loan conditions."
+    },
+    "interbranchTransfer": {
+      "name": "Inter-Branch Transfer & Withdrawal",
+      "cost": "Free",
+      "description": "Transfer money or withdraw from any MMOCCUL branch at no charge."
+    },
+    "chequeAndStandingOrders": {
+      "services": ["Cheque clearance", "Standing orders", "Bank statements"]
     }
   },
-  "internationalSupport": {
+
+  "internationalAccess": {
     "website": "https://mmocculonline.com",
-    "message": "For members and customers outside Cameroon, please visit our online platform for services and support"
+    "message": "For members and customers outside Cameroon, visit mmocculonline.com to access your account, apply for services, and manage your finances from anywhere in the world. Money transfer services (Western Union, RIA, World-Remit) are also available to non-members internationally."
+  },
+
+  "qaBySection": {
+    "section0_aboutMMOCCUL": [
+      {
+        "question": "What is MMOCCUL?",
+        "answer": "MMOCCUL (Mmockmbie Credit Union Cooperative Ltd) is a Category 1 Microfinance Institution, incorporated in 2016 and fully accredited by COBAC (N° D-2021/317) and MINFI (N° 0000381). We are member-owned and member-managed — meaning we work for you, not for outside investors. Over the past four years, MMOCCUL has been recognised as the Fastest-Growing and Most Digital-Friendly Credit Union Cooperative in Cameroon. We currently serve over 15,000 members across 12 branches nationwide, with membership open to everyone.",
+        "leadingQuestion": "Would you like to know how to join, or what services we offer?"
+      },
+      {
+        "question": "Is MMOCCUL a legitimate financial institution?",
+        "answer": "Absolutely. MMOCCUL is a licensed and regulated Category 1 Microfinance, registered under the Ministry of Agriculture and Rural Development (Reg. No: 17/035/CMR/SW/55/290/CCA/360/3601), with full accreditation from both COBAC and MINFI. Your money is safe, insured, and in trusted hands. 🔐"
+      },
+      {
+        "question": "What services does MMOCCUL offer?",
+        "answer": "MMOCCUL is more than a savings account — it's a full financial partner. We offer savings and current accounts, student and minor accounts, daily savings and group accounts, term deposits, preference shares, member shares, a full range of loans (school fees, business, personal, agricultural, real-estate, emergency, and more), international and national money transfers, ATM Visa cards, mobile banking, salary payment, bill payments, SMS banking, and free inter-branch transfers.",
+        "leadingQuestion": "Which of these would you like to know more about?"
+      },
+      {
+        "question": "What are the benefits of being an MMOCCUL member?",
+        "answer": "As an MMOCCUL member, you enjoy a safe and insured institution, 24/7 access to your money via mobile banking, easy loans at low interest rates, one of the highest savings interest rates in Cameroon (5% per year, paid twice), free SMS banking, free inter-branch transfers and withdrawals, cash collection services, mobile and internet banking, bank statements, cheque clearance, and standing orders.",
+        "leadingQuestion": "Ready to become a member? Which benefit matters most to you?"
+      }
+    ],
+
+    "section1_membershipAndAccountOpening": [
+      {
+        "question": "How do I become a member of MMOCCUL?",
+        "answer": "Joining is straightforward. Visit any of our branches with your National ID card (CNI or Passport), two passport-size photos (4x4 cm), and the initial payment of 50,500 FCFA. Your account is activated the same day. You'll receive your member number, passbook, and mobile banking credentials immediately.",
+        "leadingQuestion": "Are you looking to open a personal account, or do you have a specific account type in mind?"
+      },
+      {
+        "question": "What does my 50,500 FCFA go towards?",
+        "answer": "Every franc is accounted for. 30,000 FCFA goes to your Share Capital — this is YOUR money, earns 5% interest annually, and is refundable when you leave with 6 months' notice. 12,000 FCFA goes to the Solidarity Fund, supporting members in difficult times. 8,500 FCFA goes to the Building Reserve, strengthening the institution you now co-own. You're not paying a fee — you're making an investment."
+      },
+      {
+        "question": "Do I need a lot of money to maintain my account?",
+        "answer": "Not at all. Your 30,000 FCFA share capital is your base. Daily savings accounts start at as little as 500 FCFA/day. Student accounts have zero minimum balance after registration. MMOCCUL is designed for everyone."
+      },
+      {
+        "question": "Can I open a joint account?",
+        "answer": "Yes. MMOCCUL offers joint accounts for couples, families, and business partners. Both parties present valid IDs and passport photos. You can set equal or different transaction authorisation levels — giving you flexibility and full control."
+      },
+      {
+        "question": "Can I open more than one account?",
+        "answer": "Yes. Under one membership, you can hold multiple account types — savings, deposit, term deposit, business, and more. Each serves a different purpose so your money is always working in the right direction."
+      },
+      {
+        "question": "Can I transfer my account to another branch?",
+        "answer": "Yes — free of charge. Request a transfer form at your current branch and your full account (history, savings, loans) moves to your preferred branch within 48 hours."
+      },
+      {
+        "question": "What if I want to close my account?",
+        "answer": "You can close your account at any time by visiting your branch. Your share capital (30,000 FCFA) is refunded after settling any outstanding obligations. The solidarity fund and building reserve are non-refundable — they contribute to cooperative community programs. Your money is always safe with us."
+      },
+      {
+        "question": "What happens to my account when I pass away?",
+        "answer": "Your designated beneficiary (named at account opening) can claim your savings, shares, and balances by presenting a death certificate, their valid ID card, and a court appointment letter. MMOCCUL ensures your legacy reaches those you care about."
+      },
+      {
+        "question": "I live outside Cameroon — can I still access MMOCCUL services?",
+        "answer": "Yes! Visit https://mmocculonline.com to access your account, apply for services, and manage your finances from anywhere in the world. Our money transfer services (Western Union, RIA, World-Remit) are also available to non-members internationally."
+      }
+    ],
+
+    "section2_accountsAndProducts": [
+      {
+        "question": "What types of accounts does MMOCCUL offer?",
+        "answer": "We have an account for every need: a Savings Account (your capital and reserve for unforeseen needs, earns high interest), a Deposit/Current Account (flexible daily transactions), a Daily Savings Account (consistent daily deposits with great returns), a Student Account (zero minimum balance), a Minor Account (for children under 18), and a Group Account for associations and cooperatives.",
+        "leadingQuestion": "Which account suits your situation best?"
+      },
+      {
+        "question": "Can I open an account for my child?",
+        "answer": "Yes! MMOCCUL offers Minor Accounts for members under 18. It's one of the smartest gifts you can give your child — a savings foundation and a financial identity from an early age. Come in with your ID and your child's birth certificate to get started."
+      },
+      {
+        "question": "I'm a student — is there an account for me?",
+        "answer": "Absolutely. Our Student Account is built for your situation — zero minimum balance after registration, access to savings benefits, and an early foot on the ladder to financial independence. Come in with your student ID and CNI."
+      }
+    ],
+
+    "section3_savingsAndInterestRates": [
+      {
+        "question": "How much interest will I earn on my savings?",
+        "answer": "MMOCCUL offers one of the highest savings interest rates in Cameroon — 5% per year, paid twice annually (end of June and end of December). Most banks pay once. We pay twice — putting your money back in your hands faster."
+      },
+      {
+        "question": "What is a term deposit?",
+        "answer": "A term deposit lets you commit a minimum of 100,000 FCFA for at least 3 months and earn 6% interest per year — paid to you upfront, before the term ends. If you have money you won't need immediately, a term deposit is the smart move.",
+        "leadingQuestion": "Would you like to open one?"
+      },
+      {
+        "question": "What are preference shares?",
+        "answer": "Preference shares are MMOCCUL's highest-yielding investment. 1 preference share costs 100,000 FCFA, earns 8% interest per year, and is redeemable after 5 years. For long-term thinkers who want serious returns — this is it. Let your money work for you."
+      },
+      {
+        "question": "Why do I need to buy member shares?",
+        "answer": "MMOCCUL is a Category 1 Microfinance owned 100% by its members. Buying shares doesn't just save you money — it makes you a co-owner. You gain ownership rights in the cooperative, a voice in institutional decisions, and 5% interest per year paid twice annually. Your share capital is your stake in something built for you."
+      }
+    ],
+
+    "section4_loans": {
+      "generalQA": [
+        {
+          "question": "What do I need to apply for any MMOCCUL loan?",
+          "answer": "All loan applications require: (1) A handwritten loan application letter to the General Manager of MMOCCUL, stating the amount, duration, repayment schedule, and purpose; (2) A Devi — an itemized breakdown of exactly how you plan to spend the money; (3) A savings balance of at least 1/5 (20%) of the loan amount in your account. Additional documents vary by loan type.",
+          "leadingQuestion": "Is there a specific loan type you'd like details on?"
+        },
+        {
+          "question": "What types of loans does MMOCCUL offer?",
+          "answer": "We have a loan for almost every situation: School Fees Loan, Salary Advance (24 hours), Business Loan, Agricultural Loan, Agropastoral Financing, Real-Estate Loan (up to 60 months), Emergency Loan (48 hours), Container Removal Loan, Project Financing, Njangui Financing, and Overdraft. All start from 1.5% per month, calculated on your remaining balance."
+        },
+        {
+          "question": "How quickly can I get a loan?",
+          "answer": "Salary Advance: 24 hours. Emergency Loan: 48 hours. School Fees Loan: 3 business days. Business & Agricultural Loans: 5 business days. Real-Estate Loan: 7–10 business days. Submit complete documentation and we get started immediately."
+        },
+        {
+          "question": "How is loan interest calculated?",
+          "answer": "Interest starts at 1.5% per month, always on your remaining balance — not the original amount. As you repay, your interest decreases. There's a one-time processing fee of 3% of the loan amount. Simple, transparent, and fair."
+        },
+        {
+          "question": "Can I pay off my loan early?",
+          "answer": "Yes — and we encourage it. There are no early repayment penalties. Paying early saves you interest and improves your loan profile with MMOCCUL, opening doors to better terms in the future."
+        },
+        {
+          "question": "What if I can't make a repayment?",
+          "answer": "Contact your branch immediately — don't wait. We offer payment rescheduling, grace periods, and loan restructuring. Late payments attract a small penalty fee and persistent default can affect future loan access. Communication early is always the right move."
+        },
+        {
+          "question": "Where do I apply for a loan?",
+          "answer": "Walk into any MMOCCUL branch and ask to speak with a loan officer. They'll guide you through every step at no obligation. You can also begin the process at https://mmocculonline.com.",
+          "leadingQuestion": "Are you interested in a specific type of loan?"
+        }
+      ],
+      "specificLoanQA": [
+        {
+          "loanType": "School Fees Loan",
+          "question": "Can MMOCCUL help me pay school fees?",
+          "answer": "Yes — education shouldn't be interrupted by finances. You'll need an active MMOCCUL account, a handwritten application letter, a Devi (itemized fee breakdown), savings of at least 1/5 of the loan amount, your National ID, an admission letter or fee invoice, a recent payslip or proof of income, a localization plan, and a guarantor.",
+          "closingLine": "Come in — let's make sure the school year starts without stress."
+        },
+        {
+          "loanType": "Business Loan",
+          "question": "I want to grow my business — what do I need?",
+          "answer": "MMOCCUL is behind your growth. You'll need a handwritten application letter, two passport photos, a business plan and estimate, a Devi (expense breakdown), savings of at least 1/5 of the loan amount, localization plans for home and business, collateral security, proof of income, financial statements, a photocopy of NIC signed thrice, a completed loan form, guarantors (who hold MMOCCUL accounts and contribute 4% of the loan amount), and a complete MMOCCUL account.",
+          "closingLine": "Your business has potential. Let's fund it properly."
+        },
+        {
+          "loanType": "Personal Loan",
+          "question": "I need a personal loan — how do I qualify?",
+          "answer": "You'll need an active MMOCCUL account, a handwritten application letter, a Devi, savings of at least 1/5 of the loan amount, two guarantors, and collateral if the loan exceeds 1,000,000 FCFA.",
+          "closingLine": "Whether it's medical, family, or home — we're ready to help."
+        },
+        {
+          "loanType": "Real-Estate Loan",
+          "question": "Can MMOCCUL help me finance land or a house?",
+          "answer": "Yes. Our Real-Estate Loan has a repayment term of up to 60 months — giving you time to build your dream without pressure. You'll need a land certificate or property valuation document.",
+          "closingLine": "Your own home is within reach. Come talk to us."
+        },
+        {
+          "loanType": "Agricultural & Agropastoral Loan",
+          "question": "I'm a farmer — is there a loan for me?",
+          "answer": "Yes. Our Agricultural and Agropastoral Loan has a repayment schedule built around your harvest cycle, not a rigid monthly calendar. We understand farming income is seasonal. Bring your farm documentation.",
+          "closingLine": "Let's plan your growth together. 🌾"
+        },
+        {
+          "loanType": "Container Removal Loan",
+          "question": "What is a Container Removal Loan?",
+          "answer": "This loan covers port clearing and forwarding costs for importing goods, so your business doesn't lose time waiting. Speak to a loan officer for specifics."
+        },
+        {
+          "loanType": "Njangui Financing",
+          "question": "What is Njangui Financing?",
+          "answer": "If you're part of a Njangui (traditional savings group) and need to cover your contribution or lump-sum commitment, MMOCCUL can finance it. It's a flexible, low-interest option for members in cooperative savings circles."
+        },
+        {
+          "loanType": "Overdraft",
+          "question": "What is an Overdraft?",
+          "answer": "An overdraft gives your account short-term flexibility — allowing you to go below your balance within an approved limit. Ideal for salary earners and business owners who need breathing room between transactions."
+        }
+      ]
+    },
+
+    "section5_salaryPayment": [
+      {
+        "question": "Does MMOCCUL pay salaries?",
+        "answer": "Yes. MMOCCUL pays both Civil Servants and Private Sector workers. Members whose salaries are domiciled at MMOCCUL benefit from significantly easier loan conditions — including faster processing and more flexible terms.",
+        "leadingQuestion": "Would you like to domicile your salary with MMOCCUL? "
+      }
+    ],
+
+    "section6_moneyTransfer": [
+      {
+        "question": "Can I send or receive money through MMOCCUL?",
+        "answer": "Yes — and this service is available to members and non-members alike. 🌍 For international transfers we use Western Union, RIA, and World-Remit. For national transfers, Orange Money and MTN Mobile Money. Transfers are instant and secure from any of our 12 branches. Walk in with your ID and transfer details.",
+        "leadingQuestion": "Do you want to send or receive money today?"
+      }
+    ],
+
+    "section7_atmVisaCard": [
+      {
+        "question": "How do I get my MMOCCUL Visa Card?",
+        "answer": "Your MMOCCUL Visa Card gives you access to your money anytime, anywhere. Bring a copy of your National ID card, a localization plan (map to your home), and your NIU (Taxpayer Number). No NIU? We'll help you get one. The card costs 10,000 FCFA."
+      },
+      {
+        "question": "What can I do with the MMOCCUL Visa Card?",
+        "answer": "ATM cash withdrawals, online shopping worldwide, bill payments (ENEO, CAMWATER, etc.), and international use wherever Visa is accepted. No queues. No branch needed. Available 24/7."
+      }
+    ],
+
+    "section8_billPayments": [
+      {
+        "question": "Can MMOCCUL help me pay my electricity or water bills?",
+        "answer": "Yes. Pay your ENEO (electricity) and CAMWATER (water) bills directly through MMOCCUL — at any branch or via our mobile banking platform. Quick, convenient, no extra stress."
+      }
+    ],
+
+    "section9_mobileBanking": [
+      {
+        "question": "How do I register for MMOCCUL online banking?",
+        "answer": "Go to https://mmocculonline.com, click 'Register for Internet Banking', enter your account details, set your username as your phone number, verify your email, log in with the temporary SMS password, set up two security questions, and you're done! Your account is now open 24/7."
+      },
+      {
+        "question": "What can I do on the platform?",
+        "answer": "Check balance and transaction history, transfer funds to MMOCCUL members, pay ENEO, CAMWATER, and airtime bills, apply for loans, track savings goals, download statements, find your nearest branch, and chat with us on WhatsApp. The only exception: physical cash deposits and withdrawals."
+      },
+      {
+        "question": "Is my money safe on the platform?",
+        "answer": "Completely. We use 256-bit SSL encryption (bank-grade), two-factor authentication (OTP + PIN or biometric), real-time fraud monitoring, automatic session timeouts, and instant SMS alerts per transaction. Audited quarterly by COBAC-approved security firms. Bank with full confidence."
+      },
+      {
+        "question": "Can I use Orange Money or MTN MoMo with MMOCCUL?",
+        "answer": "Yes — deposit from your mobile money wallet directly into your MMOCCUL account, or withdraw from MMOCCUL to your wallet. Instant, 24/7, no branch required."
+      }
+    ],
+
+    "section10_branchesAndHours": [
+      {
+        "question": "When are branches open?",
+        "answer": "Monday to Saturday, 8:00 AM to 4:30 PM. Can't make it in? Reach us anytime on WhatsApp or at mmocculonline.com — we never fully close."
+      },
+      {
+        "question": "Where are the MMOCCUL branches?",
+        "answer": "We have 12 branches across Cameroon. See the branches array in this file for full locations, cities, and phone numbers."
+      }
+    ],
+
+    "section11_multilingualQA": {
+      "french": [
+        {
+          "question": "Comment puis-je devenir membre de MMOCCUL ?",
+          "answer": "C'est simple. Rendez-vous dans l'une de nos agences avec votre CNI ou passeport, deux photos 4x4 cm, et un paiement unique de 50 500 FCFA. Votre compte est activé le jour même. Vous repartez avec votre numéro de membre, votre livret et vos identifiants bancaires mobiles.",
+          "leadingQuestion": "Vous avez une question sur nos produits ou services ?"
+        },
+        {
+          "question": "Quels types de prêts proposez-vous ?",
+          "answer": "Nous avons un prêt pour chaque besoin : Prêt frais scolaires, Avance sur salaire (24h), Prêt entreprise, Prêt agricole/agropastoral, Prêt immobilier (jusqu'à 60 mois), Prêt d'urgence (48h), Dédouanement de conteneur, Financement de projet, Financement Njangui, Découvert bancaire. Tous à partir de 1,5 % par mois, calculés sur le solde restant dû.",
+          "leadingQuestion": "Quel est votre besoin ?"
+        }
+      ],
+      "pidginEnglish": [
+        {
+          "question": "How I go take join MMOCCUL?",
+          "answer": "E simple! Come any of our branches wit your National ID card (CNI or passport), two passport photos, and 50,500 FCFA for start. Dat same day dem go open your account and give you your member number, passbook and mobile banking details. No wahala! 😊",
+          "leadingQuestion": "You wan know more about wetin we offer?"
+        },
+        {
+          "question": "Which kain loan una get?",
+          "answer": "We get loan for everything weh you need: School fees loan, Salary advance (approved in 24 hours), Business loan, Agricultural loan, Real estate loan, Emergency loan (48 hours). All our loans start from 1.5% per month, calculated on the balance weh remain — not the full amount.",
+          "leadingQuestion": "Which one you need?"
+        },
+        {
+          "question": "How I go take apply for loan?",
+          "answer": "First things first — you go need: (1) Handwritten letter to the General Manager (state the amount, how long, when you go pay back, and why you need am); (2) Devi — breakdown of how you go use the money; (3) 1/5 (20%) of the loan amount for your account as collateral. Den depending on which kain loan, extra documents fit dey.",
+          "leadingQuestion": "You wan know more about one particular loan?"
+        }
+      ]
+    }
+  },
+
+  "leadingQuestions": {
+    "generalOpening": [
+      "Welcome! Are you an existing member, or are you looking to join MMOCCUL today?",
+      "Great to have you here! Are you looking to save, invest, or access a loan?",
+      "How can we help you today — savings, loans, transfers, or something else?",
+      "Is this your first time with MMOCCUL, or do you already have an account with us?",
+      "Would you like me to walk you through everything MMOCCUL has to offer?"
+    ],
+    "membershipAndAccountOpening": [
+      "Would you like to know which branch is closest to you so you can come in and open your account?",
+      "Are you opening an account for yourself, or also for a family member or child?",
+      "Would you like to know more about the benefits that come with membership?",
+      "Are you interested in a personal savings account, a student account, or something specific?",
+      "Once you're a member, would you also like to explore our loan or investment options?"
+    ],
+    "savingsAndInvestments": [
+      "Do you have a savings goal in mind — something specific you're working towards?",
+      "Would a term deposit or preference shares interest you? Both offer returns higher than a regular savings account.",
+      "How soon do you think you'd want access to the money you're saving?",
+      "Would you like to know how much you could earn on a term deposit or preference shares?",
+      "Are you saving for the short term or planning something long-term like a property or retirement?",
+      "Have you considered investing in preference shares? At 8% per year, it's our highest-yielding product."
+    ],
+    "loans": [
+      "What kind of project or need are you looking to finance?",
+      "Is this loan for personal use, your business, or education?",
+      "Do you currently have an MMOCCUL account? That's the first step to accessing a loan.",
+      "Would you like a full list of the documents you'll need for this specific loan?",
+      "How soon do you need the funds? That will help us guide you to the right loan type.",
+      "Would you like to book an appointment with one of our loan officers to discuss your options?",
+      "Is your salary currently paid through MMOCCUL? Members who domicile their salary get easier loan conditions.",
+      "Would you like to know how much you'd repay monthly based on the amount you need?",
+      "Have you thought about using a term deposit to boost your collateral and improve your loan eligibility?"
+    ],
+    "moneyTransfers": [
+      "Are you sending money within Cameroon or internationally?",
+      "Would you like to know the nearest branch where you can send or receive your transfer?",
+      "Is the recipient also an MMOCCUL member? Inter-member transfers are instant and free.",
+      "Would you prefer to do the transfer at a branch or via the mobile banking platform?"
+    ],
+    "mobileBankingAndOnline": [
+      "Do you already have access to the MMOCCUL online platform?",
+      "Would you like me to walk you through how to register on mmocculonline.com — it takes less than 5 minutes.",
+      "Are you accessing MMOCCUL from outside Cameroon? If so, the online platform gives you full access.",
+      "Would you like to know everything you can do from the app without visiting a branch?"
+    ],
+    "visaCard": [
+      "Would you like to get your MMOCCUL Visa Card? It's just 10,000 FCFA and gives you 24/7 access to your funds.",
+      "Do you need to make online payments or travel soon? A Visa Card might be exactly what you need.",
+      "Do you already have a NIU (Taxpayer Number)? If not, we can help you get one when you come in."
+    ],
+    "closingAndFollowUp": [
+      "Is there anything else I can help you with today?",
+      "Would you like the contact number for a specific branch?",
+      "Shall I summarise the steps you need to take to get this done?",
+      "Would you like us to follow up with you once you've gathered your documents?",
+      "Is there a colleague, family member, or friend who might benefit from our services? Feel free to share this chat with them.",
+      "We're here Monday to Saturday, 8am–4:30pm. Will you be able to visit a branch this week?"
+    ],
+    "curiosityAndDiscovery": [
+      "Did you know MMOCCUL pays interest on your savings TWICE a year? Most institutions only do it once. Want to know more?",
+      "Have you ever thought about what your money could be earning while it just sits in a regular account? We have a better option.",
+      "A lot of our members came in for one thing and discovered three others that changed their finances. What brought you here today?",
+      "Did you know you can access a loan without a traditional bank account? Let me show you how.",
+      "Were you aware that MMOCCUL is 100% owned by its members — meaning you could be a co-owner? Interested in how that works?",
+      "Most people don't realise how much their savings could grow with us. Want a quick breakdown of what you could earn?",
+      "Have you heard about our preference shares? At 8% interest per year, it's one of the best returns available in Cameroon right now.",
+      "If you could solve your biggest financial challenge this month, what would it be? We might have exactly what you need.",
+      "Are you currently saving anywhere? We might be able to offer you better returns — and I'd love to show you the difference."
+    ],
+    "urgencyAndAction": [
+      "The sooner your account is open, the sooner your money starts earning. Would you like to come in this week?",
+      "Your savings are losing value sitting idle. Shall we talk about putting them to work with a term deposit?",
+      "Loan applications are processed quickly — some in as little as 24 hours. Is there something you need financed urgently?",
+      "If you came in today with your documents, you could walk out with your account activated. Is that something you'd want to do?",
+      "School resumes soon — do you want to make sure fees aren't a stressor this term?",
+      "Many of our members wish they had joined sooner. What's holding you back today?",
+      "Your nearest branch is just a short distance away. What would it take for you to stop by this week?",
+      "Interest is being paid out at the end of June. Members who join before then qualify for their first payout — would you like to be one of them?"
+    ],
+    "trustAndReassurance": [
+      "Is there anything about the process that feels unclear or worrying? I'm happy to walk through it step by step.",
+      "Have you had a bad experience with a financial institution before? We'd love the chance to show you how MMOCCUL is different.",
+      "Do you have any concerns about your money's safety? I can share exactly how we protect it.",
+      "Is it the documents, the process, or something else that's making you hesitate? Let's work through it together.",
+      "Would it help to speak directly with a branch officer? They can answer your specific questions face to face — no pressure, no obligation.",
+      "We've been serving members since 2016 and are fully accredited by COBAC and MINFI. Would you like to know more about how we're regulated?",
+      "What would make you feel completely confident about opening an account or taking a loan with us?"
+    ],
+    "personalisation": [
+      "What are your main financial goals right now — short-term or long-term?",
+      "Are you saving for something specific — school, a business, a home, or just building a cushion?",
+      "Is this something you're doing for yourself, or are you also thinking about your family's and close friends' financial future?",
+      "How long have you been thinking about joining a cooperative like MMOCCUL?",
+      "If money wasn't an obstacle, what's the one thing you'd want to invest in or build right now? Let's see if we can help you get there.",
+      "Are you employed, self-employed, a student, or running a business? That helps us point you to the right product.",
+      "What matters most to you in a financial partner — low interest rates, fast service, security, or flexibility?",
+      "Do you have people depending on you financially — a family, employees? We have products built for those responsibilities."
+    ],
+    "referralAndCommunity": [
+      "Do you have a spouse, sibling, or friend who could also benefit from MMOCCUL membership? We welcome everyone.",
+      "Did someone refer you to us? We'd love to know — and we'd love for you to do the same for someone you care about.",
+      "Would you be open to sharing this conversation with someone in your network who might need a loan or savings solution?",
+      "Are you part of a group, association, or Njangui? MMOCCUL offers group accounts and Njangui financing — it could benefit your whole circle.",
+      "If you've found this helpful, would you consider recommending MMOCCUL to a colleague or family member? We grow because people trust us enough to share."
+    ]
   }
 }
