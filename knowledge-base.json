@@ -4,7 +4,6 @@
     "lastUpdated": "April 2026",
     "version": "2.0"
   },
-
   "botBehaviourGuidelines": {
     "languages": "Respond in English, French, or Cameroon Pidgin English based on the language the customer writes in.",
     "tone": "Professional, friendly, direct, and human. Moderate warmth — not overly enthusiastic.",
@@ -13,10 +12,10 @@
     "leadingQuestions": "End relevant conversations with a follow-up question to guide the customer toward taking action.",
     "outsideCameroon": "Direct international customers to https://mmocculonline.com for all transactions.",
     "creativity": "Vary responses naturally — don't sound robotic or repetitive.",
-    "loanAmounts": "Do not state maximum loan amounts.",
-    "conversationFeel": "Responses should feel human, compelling, and meet customer needs."
+    "loanAmounts": "Do not state maximum loan amounts unless specifically asked.",
+    "conversationFeel": "Responses should feel human, compelling, and meet customer needs.",
+    "listing": "Use bullets for clarity."
   },
-
   "company": {
     "name": "MMOCCUL",
     "fullName": "MMOCKMBIE Credit Union Cooperative Ltd",
@@ -30,9 +29,8 @@
     "tagline": "Your financial partner for growth and success",
     "awards": "Fastest-Growing and Digital Friendly Credit Union Cooperative in Cameroon (past 4 years)",
     "description": "MMOCCUL is a member-owned and managed financial union dedicated to mobilizing savings and providing loans to its members at low interest rates. Membership is open to everyone.",
-    "website": "https://mmoccul.com"
+    "website": "https://mmocculonline.com"
   },
-
   "branches": [
     {
       "name": "MMOCKMBIE",
@@ -108,14 +106,12 @@
       "phone": "652 77 91 59"
     }
   ],
-
   "operatingHours": {
     "days": "Monday to Saturday",
     "open": "8:00 AM",
     "close": "4:30 PM",
     "note": "Closed Sundays and public holidays. Available 24/7 via WhatsApp and mmocculonline.com"
   },
-
   "membership": {
     "requirements": [
       "Current National Identity Card or Passport",
@@ -154,9 +150,38 @@
       "Cheque clearance",
       "Standing orders",
       "Free inter-branch money transfer and withdrawal from any branch"
+    ],
+    "highlightedBenefits": [
+      {
+        "benefit": "One of the highest savings interest rates in Cameroon",
+        "detail": "5% per year, paid twice annually — end of June and end of December. Most institutions pay once. MMOCCUL pays twice, returning your earnings to you faster."
+      },
+      {
+        "benefit": "Term Deposit at 6% per year — paid upfront",
+        "detail": "Commit 100,000 FCFA for at least 3 months and receive your 6% annual interest before the term ends. A smart, low-risk way to grow money you don't need immediately."
+      },
+      {
+        "benefit": "Preference Shares at 8% per year",
+        "detail": "MMOCCUL's highest-yielding product. At 100,000 FCFA per share, redeemable after 5 years, preference shares are built for members who think long-term and want maximum returns."
+      },
+      {
+        "benefit": "Low-interest loans from 1.5% per month on remaining balance",
+        "detail": "As you repay, your interest decreases. No hidden fees — just transparent, fair lending."
+      },
+      {
+        "benefit": "Free inter-branch transfers and withdrawals",
+        "detail": "Move money or withdraw from any MMOCCUL branch nationwide at zero cost."
+      },
+      {
+        "benefit": "Free SMS banking",
+        "detail": "Instant SMS alerts for every transaction, so you're always in the know."
+      },
+      {
+        "benefit": "24/7 mobile banking",
+        "detail": "Full access to your finances from your phone, day or night, from anywhere in the world."
+      }
     ]
   },
-
   "accounts": {
     "savingsAccount": {
       "name": "Savings Account",
@@ -213,7 +238,6 @@
       "description": "MMOCCUL's highest-yielding investment. Ideal for long-term financial growth."
     }
   },
-
   "loans": {
     "generalRequirements": {
       "handwrittenLetter": {
@@ -238,7 +262,11 @@
       "benefit": "Improves credit profile and eligibility for larger loans at better rates"
     },
     "missedPayment": {
-      "options": ["Payment rescheduling", "Grace periods", "Loan restructuring"],
+      "options": [
+        "Payment rescheduling",
+        "Grace periods",
+        "Loan restructuring"
+      ],
       "warning": "Late payments attract a penalty fee. Persistent default affects future loan access.",
       "advice": "Contact your branch immediately — don't wait."
     },
@@ -356,24 +384,39 @@
       }
     ],
     "salaryDomiciliation": {
-      "eligible": ["Civil Servants", "Private Sector workers"],
+      "eligible": [
+        "Civil Servants",
+        "Private Sector workers"
+      ],
       "benefit": "Members whose salaries are domiciled at MMOCCUL receive easier loan conditions — faster processing and more flexible terms."
     }
   },
-
   "services": {
     "moneyTransfer": {
       "name": "Money Transfer Services",
       "description": "Instant money transfer available to members and non-members alike.",
-      "international": ["Western Union", "RIA", "World-Remit"],
-      "national": ["Orange Money", "MTN Mobile Money"],
+      "international": [
+        "Western Union",
+        "RIA",
+        "World-Remit"
+      ],
+      "national": [
+        "Orange Money",
+        "MTN Mobile Money"
+      ],
       "availability": "24/7, instant",
       "eligibility": "Members and non-members"
     },
     "billPayment": {
       "name": "Bill Payment Services",
-      "utilities": ["ENEO (Electricity)", "CAMWATER (Water)"],
-      "channels": ["Any branch", "Mobile banking platform"]
+      "utilities": [
+        "ENEO (Electricity)",
+        "CAMWATER (Water)"
+      ],
+      "channels": [
+        "Any branch",
+        "Mobile banking platform"
+      ]
     },
     "atmVisaCard": {
       "name": "ATM VISA Card",
@@ -413,7 +456,7 @@
         "Find nearest branch",
         "WhatsApp support"
       ],
-      "availability":"24/7, instant",
+      "limitations": "Physical cash deposits and withdrawals require a branch visit",
       "security": {
         "encryption": "256-bit SSL (bank-grade)",
         "authentication": "Two-factor (OTP + PIN or biometric)",
@@ -434,7 +477,10 @@
     },
     "salaryPayment": {
       "name": "Salary Payment",
-      "eligible": ["Civil Servants", "Private Workers"],
+      "eligible": [
+        "Civil Servants",
+        "Private Workers"
+      ],
       "benefit": "Salary domiciliation at MMOCCUL unlocks preferential loan conditions."
     },
     "interbranchTransfer": {
@@ -443,15 +489,17 @@
       "description": "Transfer money or withdraw from any MMOCCUL branch at no charge."
     },
     "chequeAndStandingOrders": {
-      "services": ["Cheque clearance", "Standing orders", "Bank statements"]
+      "services": [
+        "Cheque clearance",
+        "Standing orders",
+        "Bank statements"
+      ]
     }
   },
-
   "internationalAccess": {
     "website": "https://mmocculonline.com",
     "message": "For members and customers outside Cameroon, visit mmocculonline.com to access your account, apply for services, and manage your finances from anywhere in the world. Money transfer services (Western Union, RIA, World-Remit) are also available to non-members internationally."
   },
-
   "qaBySection": {
     "section0_aboutMMOCCUL": [
       {
@@ -465,16 +513,15 @@
       },
       {
         "question": "What services does MMOCCUL offer?",
-        "answer": "MMOCCUL is more than a savings account — it's a full financial partner. We offer savings and current accounts, student and minor accounts, daily savings and group accounts, term deposits, preference shares, member shares, a full range of loans (school fees, business, personal, agricultural, real-estate, emergency, and more), international and national money transfers, ATM Visa cards, mobile banking, salary payment, bill payments, SMS banking, and free inter-branch transfers.",
+        "answer": "MMOCCUL is more than a savings account — it's a full financial partner that makes your money work harder.\n\n💰 Savings & Accounts: Savings Account (5% interest/year, paid twice), Deposit Account, Daily Savings, Student Account, Minor Account, Group Account.\n\n📈 Investments built to grow your wealth:\n- Term Deposit: 6% per year, paid upfront. Minimum 100,000 FCFA for 3 months.\n- Preference Shares: 8% per year, redeemable after 5 years. Our highest return.\n- Member Shares: 5% per year, paid twice annually.\n\n🏦 Loans: School Fees, Business, Personal, Agricultural, Real-Estate, Emergency, Salary Advance, Njangui, Container Removal, Overdraft, and more — from 1.5%/month on remaining balance.\n\n🌍 Money Transfer: Western Union, RIA, World-Remit (international); Orange Money, MTN MoMo (national). Available to members and non-members.\n\n💳 Other Services: ATM Visa Card, Mobile & Internet Banking, Salary Payment, Bill Payments (ENEO & CAMWATER), Free inter-branch transfers, SMS Banking, Bank Statements, Cheque Clearance, Standing Orders.",
         "leadingQuestion": "Which of these would you like to know more about?"
       },
       {
         "question": "What are the benefits of being an MMOCCUL member?",
-        "answer": "As an MMOCCUL member, you enjoy a safe and insured institution, 24/7 access to your money via mobile banking, easy loans at low interest rates, one of the highest savings interest rates in Cameroon (5% per year, paid twice), free SMS banking, free inter-branch transfers and withdrawals, cash collection services, mobile and internet banking, bank statements, cheque clearance, and standing orders.",
-        "leadingQuestion": "Ready to become a member? Which benefit matters most to you?"
+        "answer": "As an MMOCCUL member, your money is always working for you. Here's what sets us apart:\n\n💰 Savings Interest: 5% per year — paid TWICE annually (end of June and end of December). Most banks pay once. We pay twice, putting your money back in your hands faster.\n\n📈 Term Deposit: Earn 6% per year on a minimum of 100,000 FCFA — and your interest is paid upfront, before the term ends. Smart money for money you don't need right away.\n\n🏆 Preference Shares: Our highest-yielding product at 8% per year. At 100,000 FCFA per share, redeemable after 5 years — built for members who want serious long-term returns.\n\nBeyond the returns, you also enjoy: a safe and insured institution, easy access to low-interest loans, free SMS banking, free inter-branch transfers and withdrawals, mobile and internet banking, cash collection services, bank statements, cheque clearance, and standing orders.",
+        "leadingQuestion": "Would you like to know more about any of these — savings, term deposits, or preference shares?"
       }
     ],
-
     "section1_membershipAndAccountOpening": [
       {
         "question": "How do I become a member of MMOCCUL?",
@@ -514,7 +561,6 @@
         "answer": "Yes! Visit https://mmocculonline.com to access your account, apply for services, and manage your finances from anywhere in the world. Our money transfer services (Western Union, RIA, World-Remit) are also available to non-members internationally."
       }
     ],
-
     "section2_accountsAndProducts": [
       {
         "question": "What types of accounts does MMOCCUL offer?",
@@ -530,27 +576,27 @@
         "answer": "Absolutely. Our Student Account is built for your situation — zero minimum balance after registration, access to savings benefits, and an early foot on the ladder to financial independence. Come in with your student ID and CNI."
       }
     ],
-
     "section3_savingsAndInterestRates": [
       {
         "question": "How much interest will I earn on my savings?",
-        "answer": "MMOCCUL offers one of the highest savings interest rates in Cameroon — 5% per year, paid twice annually (end of June and end of December). Most banks pay once. We pay twice — putting your money back in your hands faster."
+        "answer": "MMOCCUL offers one of the highest savings interest rates in Cameroon — 5% per year, paid twice annually (end of June and end of December). Most banks pay interest once a year. We pay twice — putting your money back in your hands faster, more often. Every franc you save is earning for you, consistently, all year round. And if you want to push your returns even further, a term deposit earns 6% per year (paid upfront), or preference shares earn 8% per year — our highest return available.",
+        "leadingQuestion": "Would you like to know more about our term deposit or preference shares?"
       },
       {
         "question": "What is a term deposit?",
-        "answer": "A term deposit lets you commit a minimum of 100,000 FCFA for at least 3 months and earn 6% interest per year — paid to you upfront, before the term ends. If you have money you won't need immediately, a term deposit is the smart move.",
-        "leadingQuestion": "Would you like to open one?"
+        "answer": "A term deposit is one of the smartest ways to grow your money at MMOCCUL. Commit a minimum of 100,000 FCFA for at least 3 months and earn 6% interest per year — paid upfront, before the term even ends. You don't wait for your returns. They come to you first. If you have money you won't need immediately, why leave it sitting idle? A term deposit turns patience into profit.",
+        "leadingQuestion": "Would you like to open one, or would you like to compare it with our preference shares for even higher returns?"
       },
       {
         "question": "What are preference shares?",
-        "answer": "Preference shares are MMOCCUL's highest-yielding investment. 1 preference share costs 100,000 FCFA, earns 8% interest per year, and is redeemable after 5 years. For long-term thinkers who want serious returns — this is it. Let your money work for you."
+        "answer": "Preference shares are MMOCCUL's highest-yielding investment — and one of the best returns available in Cameroon's cooperative banking space. Here's what you get:\n- 1 preference share = 100,000 FCFA\n- 8% interest per year — our highest rate\n- Redeemable after 5 years\n\nFor long-term thinkers who want serious returns — this is it. While your money is committed, it is working hard for you every single year. At 8%, it outperforms both regular savings (5%) and term deposits (6%). Let your money work for you.",
+        "leadingQuestion": "Would you like to know how to purchase preference shares, or compare them with our term deposit option?"
       },
       {
         "question": "Why do I need to buy member shares?",
         "answer": "MMOCCUL is a Category 1 Microfinance owned 100% by its members. Buying shares doesn't just save you money — it makes you a co-owner. You gain ownership rights in the cooperative, a voice in institutional decisions, and 5% interest per year paid twice annually. Your share capital is your stake in something built for you."
       }
     ],
-
     "section4_loans": {
       "generalQA": [
         {
@@ -632,15 +678,13 @@
         }
       ]
     },
-
     "section5_salaryPayment": [
       {
         "question": "Does MMOCCUL pay salaries?",
         "answer": "Yes. MMOCCUL pays both Civil Servants and Private Sector workers. Members whose salaries are domiciled at MMOCCUL benefit from significantly easier loan conditions — including faster processing and more flexible terms.",
-        "leadingQuestion": "Would you like to domicile your salary with MMOCCUL? "
+        "leadingQuestion": "Would you like to domicile your salary with MMOCCUL? Visit your nearest branch or reach us on WhatsApp."
       }
     ],
-
     "section6_moneyTransfer": [
       {
         "question": "Can I send or receive money through MMOCCUL?",
@@ -648,7 +692,6 @@
         "leadingQuestion": "Do you want to send or receive money today?"
       }
     ],
-
     "section7_atmVisaCard": [
       {
         "question": "How do I get my MMOCCUL Visa Card?",
@@ -659,14 +702,12 @@
         "answer": "ATM cash withdrawals, online shopping worldwide, bill payments (ENEO, CAMWATER, etc.), and international use wherever Visa is accepted. No queues. No branch needed. Available 24/7."
       }
     ],
-
     "section8_billPayments": [
       {
         "question": "Can MMOCCUL help me pay my electricity or water bills?",
         "answer": "Yes. Pay your ENEO (electricity) and CAMWATER (water) bills directly through MMOCCUL — at any branch or via our mobile banking platform. Quick, convenient, no extra stress."
       }
     ],
-
     "section9_mobileBanking": [
       {
         "question": "How do I register for MMOCCUL online banking?",
@@ -685,7 +726,6 @@
         "answer": "Yes — deposit from your mobile money wallet directly into your MMOCCUL account, or withdraw from MMOCCUL to your wallet. Instant, 24/7, no branch required."
       }
     ],
-
     "section10_branchesAndHours": [
       {
         "question": "When are branches open?",
@@ -696,7 +736,6 @@
         "answer": "We have 12 branches across Cameroon. See the branches array in this file for full locations, cities, and phone numbers."
       }
     ],
-
     "section11_multilingualQA": {
       "french": [
         {
@@ -729,7 +768,6 @@
       ]
     }
   },
-
   "leadingQuestions": {
     "generalOpening": [
       "Welcome! Are you an existing member, or are you looking to join MMOCCUL today?",
@@ -836,5 +874,43 @@
       "Are you part of a group, association, or Njangui? MMOCCUL offers group accounts and Njangui financing — it could benefit your whole circle.",
       "If you've found this helpful, would you consider recommending MMOCCUL to a colleague or family member? We grow because people trust us enough to share."
     ]
+  },
+  "keySellingPoints": {
+    "description": "Use these talking points prominently whenever discussing benefits, advantages, or what's in it for the customer. These are MMOCCUL's strongest differentiators.",
+    "savingsInterestRate": {
+      "headline": "One of the highest savings interest rates in Cameroon",
+      "rate": "5% per year",
+      "paymentFrequency": "Twice annually — end of June and end of December",
+      "competitiveEdge": "Most banks pay interest once a year. MMOCCUL pays twice — putting your money back in your hands faster, more often.",
+      "suggestedBotResponse": "MMOCCUL offers one of the highest savings interest rates in Cameroon — 5% per year, paid twice annually (end of June and end of December). Most banks pay once. We pay twice — putting your money back in your hands faster. Your savings don't just sit — they work for you, every single day."
+    },
+    "termDeposit": {
+      "headline": "Earn 6% interest per year — paid to you upfront",
+      "minimumAmount": "100,000 FCFA",
+      "minimumTerm": "3 months",
+      "interestRate": "6% per year",
+      "interestPayment": "Paid upfront — before the term ends",
+      "competitiveEdge": "You receive your returns before the investment period is even over. No waiting. No surprises.",
+      "idealFor": "Members who have money they won't need immediately and want it growing steadily.",
+      "suggestedBotResponse": "A term deposit lets you commit a minimum of 100,000 FCFA for at least 3 months and earn 6% interest per year — paid upfront. You receive your returns before the term even ends. If you have money you won't need immediately, a term deposit is the smart move. Why let it sit idle when it can be earning for you?"
+    },
+    "preferenceShares": {
+      "headline": "MMOCCUL's highest-yielding investment — 8% interest per year",
+      "costPerShare": "100,000 FCFA",
+      "interestRate": "8% per year",
+      "redemption": "Redeemable after 5 years",
+      "competitiveEdge": "The highest return MMOCCUL offers. Designed for members who think long-term and want their money working as hard as possible.",
+      "suggestedBotResponse": "Preference shares are MMOCCUL's highest-yielding investment. 1 preference share = 100,000 FCFA, earns 8% interest per year, and is redeemable after 5 years. For long-term thinkers who want serious returns — this is it. Let your money work for you."
+    },
+    "combinedPitch": {
+      "description": "Use this when a customer asks broadly about benefits, returns, or what makes MMOCCUL worth joining.",
+      "suggestedBotResponse": "Here's what makes MMOCCUL stand out financially:\n\n💰 Your savings earn 5% interest per year — paid TWICE (June and December). Most banks pay once. We pay twice.\n\n📈 A term deposit earns 6% per year — and your interest is paid upfront, before the term ends. Minimum 100,000 FCFA for 3 months.\n\n🏆 Preference shares earn 8% per year — our highest return. At 100,000 FCFA per share, redeemable after 5 years, it's built for members who want their money doing serious work.\n\nYour money doesn't have to sit still. At MMOCCUL, every franc you save or invest is earning for you."
+    }
+  },
+  "benefitsPitches": {
+    "description": "Ready-to-use response blocks the bot can deploy when a customer asks about benefits, returns, or why they should choose MMOCCUL.",
+    "shortPitch": "Your money earns more at MMOCCUL. Savings earn 5% per year — paid twice (June & December). Term deposits earn 6% per year, paid upfront. Preference shares earn 8% per year over 5 years. Where else in Cameroon does your money work this hard?",
+    "mediumPitch": "MMOCCUL gives your money three powerful ways to grow:\n\n1️⃣ Savings Account — 5% interest per year, paid TWICE (end of June + end of December). Most banks pay once. We pay twice.\n\n2️⃣ Term Deposit — 6% per year, minimum 100,000 FCFA for 3 months. Your interest is paid upfront — before the term ends.\n\n3️⃣ Preference Shares — 8% per year, 100,000 FCFA per share, redeemable after 5 years. Our highest return. Built for serious savers.\n\nChoose one, or combine all three. Your money should always be working for you.",
+    "longPitch": "Here's why over 15,000 members trust MMOCCUL with their money:\n\n💰 SAVINGS: 5% interest per year — paid twice annually (June and December). Most Cameroonian financial institutions pay once. MMOCCUL pays twice, so your earnings come back to you faster. Every franc you save is working for you every day.\n\n📈 TERM DEPOSIT: Commit a minimum of 100,000 FCFA for at least 3 months and earn 6% interest per year — paid to you upfront, before the term ends. You don't wait for your returns. They arrive first. If you have money you won't need right away, a term deposit is the smart, low-risk move.\n\n🏆 PREFERENCE SHARES: Our highest-yielding product. 1 preference share = 100,000 FCFA. Earns 8% interest per year. Redeemable after 5 years. At 8%, it outperforms both savings and term deposits — ideal for members who think long-term and want their money doing serious work.\n\nBeyond the returns, MMOCCUL is also 100% member-owned, fully accredited by COBAC and MINFI, and has been named the Fastest-Growing and Most Digital-Friendly Credit Union in Cameroon for four consecutive years. You're not just a customer here — you're a co-owner.\n\nYour money deserves better than a regular account. Let's put it to work."
   }
 }
