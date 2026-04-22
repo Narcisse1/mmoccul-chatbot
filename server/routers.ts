@@ -218,7 +218,33 @@ ${kbText}`;
         // 3. Remove any remaining stray lone asterisks
         assistantMessage = assistantMessage.replace(/\*+/g, '');
 
-        // 4. Filter self-introduction patterns
+        // 4. Hard-code correct branch locations — replace any "City Center" fallback
+        const branchCorrections: Record<string, string> = {
+          'DSCHANG.*City Center': 'DSCHANG: Beside Alimentation Forbin (Marché A)',
+          'Dschang.*[Cc]ity [Cc]enter': 'Dschang: Beside Alimentation Forbin (Marché A)',
+          'BAFOUSSAM.*City Center': 'BAFOUSSAM: Ancien Cinéma 4 Étio (Entrée Marché B)',
+          'Bafoussam.*[Cc]ity [Cc]enter': 'Bafoussam: Ancien Cinéma 4 Étio (Entrée Marché B)',
+          'BUEA.*City Center': 'BUEA: UB Junction, Opposite TFC Restaurant',
+          'Buea.*[Cc]ity [Cc]enter': 'Buea: UB Junction, Opposite TFC Restaurant',
+          'KUMBA.*City Center': 'KUMBA: Mbo\'o Street Junction',
+          'Kumba.*[Cc]ity [Cc]enter': 'Kumba: Mbo\'o Street Junction',
+          'BAMENDA.*City Center': 'BAMENDA: Food Market, E Square Plaza Building',
+          'Bamenda.*[Cc]ity [Cc]enter': 'Bamenda: Food Market, E Square Plaza Building',
+          'BERTOUA.*City Center': 'BERTOUA: Rue Grand Total Ndouan',
+          'Bertoua.*[Cc]ity [Cc]enter': 'Bertoua: Rue Grand Total Ndouan',
+        };
+        for (const [pattern, replacement] of Object.entries(branchCorrections)) {
+          assistantMessage = assistantMessage.replace(new RegExp(pattern, 'g'), replacement);
+        }
+
+        // 5. Catch any remaining bare "City Center" mentions (fallback)
+        assistantMessage = assistantMessage.replace(/[Cc]ity [Cc]enter/g, 'the city centre (please call the branch for precise directions)');
+
+        // 6. Fix "Montee centre" → correct Etoug-Ebe address
+        assistantMessage = assistantMessage.replace(/[Mm]ontee\s+centre/g, 'Montée Centre Handicapés');
+        assistantMessage = assistantMessage.replace(/[Mm]ont[eé]e\s+[Cc]entre(?!\s+[Hh]andicap)/g, 'Montée Centre Handicapés');
+
+        // 7. Filter self-introduction patterns
         const lowerMessage = assistantMessage.toLowerCase();
         const bannedTerms = ['chatbot', "i'm your", "i'm a "];
         for (const term of bannedTerms) {
