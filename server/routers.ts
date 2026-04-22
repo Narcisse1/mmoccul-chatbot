@@ -211,11 +211,12 @@ ${kbText}`;
         // 1. Convert **text** markdown bold → <b>text</b> HTML bold (safety net)
         assistantMessage = assistantMessage.replace(/\*\*(.+?)\*\*/g, '<b>$1</b>');
 
-        // 2. Convert lone asterisk bullets → bullet points
-        assistantMessage = assistantMessage.replace(/^\* /gm, '• ');
+        // 2. Convert asterisk bullets (with any number of spaces) → bullet points
+        //    Catches: "* item", "*   item", "*  item" etc.
+        assistantMessage = assistantMessage.replace(/^\*\s+/gm, '• ');
 
-        // 3. Remove any remaining stray single asterisks not part of bullets
-        assistantMessage = assistantMessage.replace(/(?<!\S)\*(?!\S)/g, '');
+        // 3. Remove any remaining stray lone asterisks
+        assistantMessage = assistantMessage.replace(/\*+/g, '');
 
         // 4. Filter self-introduction patterns
         const lowerMessage = assistantMessage.toLowerCase();
