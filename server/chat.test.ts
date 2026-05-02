@@ -1,5 +1,5 @@
 import { describe, expect, it, beforeEach } from "vitest";
-import { appRouter } from "./routers";
+import { appRouter } from "./router";
 import type { TrpcContext } from "./_core/context";
 
 type AuthenticatedUser = NonNullable<TrpcContext["user"]>;
